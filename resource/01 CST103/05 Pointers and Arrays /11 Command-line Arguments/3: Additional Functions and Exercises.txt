@@ -1,0 +1,2 @@
+Unit 3: Additional Functions and Exercises
+The code presents supporting functions like numcmp for numeric comparison and the swap function for exchanging pointers. It also suggests various exercises to expand the sorting program's capabilities, such as handling reverse order sorting, case-insensitive sorting, directory-style sorting, and field-based sorting within lines. These exercises offer opportunities for further practice and enhancement of the sorting program.

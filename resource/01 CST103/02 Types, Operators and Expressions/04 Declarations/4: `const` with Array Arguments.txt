@@ -1,0 +1,8 @@
+Unit 4: `const` with Array Arguments
+
+The `const` declaration can be applied to array arguments in functions, specifying that the function does not change that array.
+
+- Example:
+  ```c
+  int strlen(const char[]);
+  ```

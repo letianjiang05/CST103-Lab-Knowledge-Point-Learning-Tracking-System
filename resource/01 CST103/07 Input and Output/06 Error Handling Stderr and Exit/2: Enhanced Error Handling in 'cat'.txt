@@ -1,0 +1,3 @@
+Unit 2: Enhanced Error Handling in 'cat'
+
+In the revised 'cat' program, errors are handled more effectively. Error messages produced by 'fprintf' are directed to 'stderr', ensuring they appear on the screen, aiding in identifying the source of errors. The 'exit' function is employed to terminate program execution upon encountering errors, offering distinct exit codes to indicate successful execution or abnormal situations.

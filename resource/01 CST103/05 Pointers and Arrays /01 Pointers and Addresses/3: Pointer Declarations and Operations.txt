@@ -1,0 +1,11 @@
+Unit 3: Pointer Declarations and Operations
+Suppose that x and y are integers and ip is a pointer to int. This artificial sequence shows how to declare a pointer and how to use & and *:
+```
+int x = 1, y = 2, z[10];
+int *ip; /* ip is a pointer to int */ 
+ip = &x; /* ip now points to x */
+y = *ip; /* y is now 1 */
+*ip = 0; /* x is now 0 */
+ip = &z[0]; /* ip now points to z[0] */
+```
+The declaration of x, y, and z are what we've seen all along. The declaration of the pointer ip, `int *ip;` is intended as a mnemonic; it says that the expression *ip is an int. The syntax of the declaration for a variable mimics the syntax of expressions in which the variable might appear. This reasoning applies to function declarations as well. For example, `double *dp, atof(char *);` says that in an expression *dp and atof(s) have values of double, and that the argument of atof is a pointer to char.

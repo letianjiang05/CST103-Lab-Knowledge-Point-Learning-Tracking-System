@@ -1,0 +1,5 @@
+Unit 4: Unary Negation Operator
+
+The unary negation operator `!` converts a non-zero operand into 0 and a zero operand into 1.
+
+- Commonly used in conditional statements like `if (!valid)` instead of `if (valid == 0)` for readability.

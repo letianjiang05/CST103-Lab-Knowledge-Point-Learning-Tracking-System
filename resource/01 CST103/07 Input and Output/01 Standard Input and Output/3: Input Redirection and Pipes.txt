@@ -1,0 +1,3 @@
+Unit 3: Input Redirection and Pipes
+Input redirection: < convention (prog <infile) allows reading from a file instead of the keyboard.
+Pipes: | convention (otherprog | prog) directs the output of otherprog as input to prog.

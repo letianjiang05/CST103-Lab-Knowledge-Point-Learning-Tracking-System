@@ -1,0 +1,2 @@
+Unit 8: Best Practices for File Organization
+This program's structure exemplifies considerations for organizing code across multiple files. Keeping declarations and definitions aligned across files is crucial for cohesive program functionality.

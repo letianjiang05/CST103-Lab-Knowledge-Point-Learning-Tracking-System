@@ -1,0 +1,10 @@
+Unit 3: Initialization Rules and Special Cases
+For external and static variables, the initializer must be a constant expression; the initialization is done once, conceptionally before the program begins execution. For automatic and register variables, the initializer is not restricted to being a constant: it may be any expression involving previously defined values, even function calls. Character arrays are a special case of initialization; a string may be used instead of the braces and commas notation. For example:
+```c
+char pattern = "ould";
+```
+is a shorthand for the longer but equivalent
+```c
+char pattern[] = { 'o', 'u', 'l', 'd', '\0' };
+```
+In this case, the array size is five (four characters plus the terminating '\0').

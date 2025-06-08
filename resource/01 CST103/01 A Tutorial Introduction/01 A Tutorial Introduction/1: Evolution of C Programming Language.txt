@@ -1,0 +1,2 @@
+Unit 1: Evolution of C Programming Language
+The computing world has seen significant transformations since the release of The C Programming Language in 1978. In this time frame, large computers have expanded in capacity, while personal computers now rival the capabilities of mainframes from a decade prior. Simultaneously, the language C has also evolved, albeit modestly, extending its reach far beyond its initial roots as the UNIX operating system's language.

@@ -1,0 +1,5 @@
+Unit 2: File Open Modes and File Handling Functions
+
+The 'fopen' declaration signifies that 'fp' is a 'FILE' pointer, while 'fopen' returns a 'FILE' pointer. Opening modes like 'r' (read), 'w' (write), and 'a' (append) are standard. Additional modes may indicate text or binary ('b') files.
+
+Upon opening, existing files may be overwritten or appended to, while attempting to read a non-existent file is an error, potentially causing 'fopen' to return 'NULL'. File handling functions like 'getc' and 'putc' aid in reading and writing files, akin to 'getchar' and 'putchar', but for files.

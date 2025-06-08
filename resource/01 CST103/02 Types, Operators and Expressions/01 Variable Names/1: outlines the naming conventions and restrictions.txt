@@ -1,0 +1,27 @@
+Unit 1: outlines the naming conventions and restrictions
+
+Naming Rules and Restrictions
+
+- Composition of Names: Names can consist of letters and digits. The first character must be a letter or underscore `_`. The underscore is often used for improving readability in long names.
+  
+- Naming Convention: Traditionally, C practice involves using lowercase for variable names and all uppercase for symbolic constants. It's advised not to start variable names with an underscore to avoid conflicts with library routines that often use such names.
+
+- Case Sensitivity: C treats uppercase and lowercase letters as distinct. `x` and `X` are considered as different names.
+
+- Significance of Name Length: For internal names (such as local variables), the first 31 characters are significant. However, for function names and external variables, the significant number of characters might be less due to limitations imposed by assemblers and loaders.
+
+- Reserved Keywords: Certain words like `if`, `else`, `int`, `float`, etc., are reserved and cannot be used as variable names. They must always be written in lowercase.
+
+---
+
+Best Practices for Naming Variables
+
+- Choosing Descriptive Names: It's recommended to select names that clearly reflect the purpose of the variable. This helps in code readability and understanding.
+
+- Typographic Clarity: Names should be chosen carefully to minimize typographical errors and confusion.
+
+- Naming Length: Short names are often preferred for local variables and loop indices, while longer and more descriptive names are recommended for external variables.
+
+---
+
+These guidelines serve as good practices to maintain consistency, readability, and clarity within a C program's codebase. If you have any questions about specific naming conventions or need further clarification, feel free to ask!

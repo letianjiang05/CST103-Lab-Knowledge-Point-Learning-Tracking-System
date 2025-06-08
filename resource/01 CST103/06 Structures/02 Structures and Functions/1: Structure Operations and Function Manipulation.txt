@@ -1,0 +1,2 @@
+Unit 1: Structure Operations and Function Manipulation
+In C, structures can be copied, assigned, have their address taken with &, and access their members. Operations like passing as arguments to functions and returning from functions are possible as well. However, direct comparison between structures is not permitted. Initialization of structures can be done with constant member values or through assignments.

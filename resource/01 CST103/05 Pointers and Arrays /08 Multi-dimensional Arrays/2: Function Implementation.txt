@@ -1,0 +1,3 @@
+Unit 2: Function Implementation
+The 'month_name' function is detailed in this unit, showcasing the actual code and the logic behind returning the name of the n-th month. The function uses a static array of character pointers, 'name[]', initialized with the names of the months and an "Illegal month" entry for out-of-range inputs. The unit walks through the function's structure and its conditional operation, which ensures that a valid month name is returned for inputs 1 through 12, and an error message for anything else. This illustrates a practical application of pointer arrays and how they can be accessed and manipulated within a function.
+

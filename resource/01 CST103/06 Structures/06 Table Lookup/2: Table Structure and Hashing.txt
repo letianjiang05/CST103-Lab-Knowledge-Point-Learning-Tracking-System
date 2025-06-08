@@ -1,0 +1,5 @@
+Unit 2: Table Structure and Hashing
+The table is structured using a hash-search algorithm. A hash function generates an index based on the character values of the string. This index points to an array of pointers. Each array element points to a linked list of blocks describing names sharing the same hash value.
+
+The block structure comprises pointers to the name, replacement text, and the next block in the list. The hashing function ensures a non-negative hash value and indexes into hashtab.
+

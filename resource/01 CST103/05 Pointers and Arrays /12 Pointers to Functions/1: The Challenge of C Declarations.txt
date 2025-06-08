@@ -1,0 +1,2 @@
+Unit 1: The Challenge of C Declarations
+This unit focuses on the syntax complexities in C declarations, especially those involving function pointers. It highlights the difficulties faced due to the necessity of ensuring alignment between declaration and usage, which is straightforward in simple cases but becomes perplexing with more intricate declarations.

@@ -1,0 +1,2 @@
+Unit 4: Scope and Lifetime of External Variables
+Unlike automatic variables confined within a function's scope, external variables persist, retaining values across function invocations. Sharing data between functions that don't directly call each other is more convenient using external variables.

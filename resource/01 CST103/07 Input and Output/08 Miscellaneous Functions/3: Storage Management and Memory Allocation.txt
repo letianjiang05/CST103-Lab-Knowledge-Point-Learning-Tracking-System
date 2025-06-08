@@ -1,0 +1,3 @@
+Unit 3: Storage Management and Memory Allocation
+Here, we delve into memory management functions, malloc and calloc, for dynamic memory allocation. These functions allocate memory blocks and return pointers to the allocated memory. Additionally, the free function is introduced, responsible for releasing memory allocated by malloc or calloc. Proper usage, such as casting returned pointers and avoiding freeing unallocated or already freed memory, will be emphasized.
+

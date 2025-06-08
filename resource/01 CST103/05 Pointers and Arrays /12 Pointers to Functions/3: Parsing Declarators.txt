@@ -1,0 +1,2 @@
+Unit 3: Parsing Declarators
+The heart of the dcl program comprises functions dcl and dirdcl, which are responsible for parsing the declaration based on a simplified declarator grammar. These functions handle pointer declarations, function declarations, and array declarations, breaking down a complex declaration into a hierarchical structure to assist in understanding.

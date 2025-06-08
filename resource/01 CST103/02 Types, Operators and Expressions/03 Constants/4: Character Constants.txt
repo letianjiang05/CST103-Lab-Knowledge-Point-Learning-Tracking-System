@@ -1,0 +1,6 @@
+Unit 4: Character Constants
+
+A character constant, like 'x', is an integer and represents the numeric value of the character in the machine's character set.
+
+- Character constants participate in numeric operations but are often used in character comparisons.
+- Certain characters are represented by escape sequences like '\n' for newline.

@@ -1,0 +1,7 @@
+Unit 1: Scanf Overview
+
+The `scanf` function serves as the input complement of `printf`, offering similar conversion functionalities in the reverse direction. It reads characters from the standard input, interprets them based on the specified format, and stores the results through the remaining arguments, all of which must be pointers. The summary below highlights the primary features of `scanf`.
+
+`scanf` halts when it finishes processing the format string or when input fails to match the control specification. Its return value indicates the number of successfully matched and assigned input items. Unlike `0`, `EOF` is returned upon encountering end-of-file, signifying that the subsequent input character doesn't match the first specification in the format string.
+
+There's also `sscanf`, which reads from a string instead of the standard input. It scans the string as per the specified format and stores resulting values through pointers.

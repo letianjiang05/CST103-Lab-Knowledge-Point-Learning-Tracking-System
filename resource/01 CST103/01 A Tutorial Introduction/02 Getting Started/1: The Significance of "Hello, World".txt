@@ -1,0 +1,3 @@
+Unit 1: The Significance of "Hello, World"
+Learning a new programming language begins with practical implementation. Irrespective of the language, the initial program is universal: printing "hello, world." This simple task encompasses compiling, running, and understanding output, marking a pivotal step in mastering the technicalities of programming.
+

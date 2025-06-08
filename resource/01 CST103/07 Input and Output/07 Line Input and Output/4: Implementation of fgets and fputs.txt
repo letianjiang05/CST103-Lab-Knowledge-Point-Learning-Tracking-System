@@ -1,0 +1,3 @@
+Unit 4: Implementation of fgets and fputs
+
+The implementation of fgets involves reading characters from the file into a string until it reaches the newline or the maximum allowed characters. fputs writes a string character by character to a file until it hits the end of the string.

@@ -1,0 +1,2 @@
+Unit 2: The Default Case in Else-If
+The last else part handles the "none of the above" or default case where none of the other conditions is satisfied. Sometimes there is no explicit action for the default; in that case the trailing `else statement` can be omitted, or it may be used for error checking to catch an "impossible" condition.

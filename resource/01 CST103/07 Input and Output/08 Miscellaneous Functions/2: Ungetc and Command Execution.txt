@@ -1,0 +1,2 @@
+Unit 2: Ungetc and Command Execution
+This unit focuses on the function ungetc, which allows pushing characters back onto a file stream, and system, used for executing commands in the local operating system environment. The ungetc function returns characters to the file stream, while system executes commands specified in a character string.

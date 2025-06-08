@@ -1,0 +1,5 @@
+Unit 4: Order of Evaluation
+
+C, like most languages, does not specify the order in which the operands of an operator are evaluated, except for &&, ||, ?:, and `,'. Intermediate results can be stored in temporary variables to ensure a particular sequence.
+
+Similarly, the order in which function arguments are evaluated is not specified. Writing code that depends on the order of evaluation is considered a bad programming practice.

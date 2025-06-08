@@ -1,0 +1,9 @@
+Unit 4: Explanation of `getbits`
+
+1. `x >> (p+1-n)`: Shifts the desired field to the right end of `x`.
+2. `~0 << n`: Generates a mask with ones in the rightmost n bits.
+3. `~(~0 << n)`: Complements the mask to form zeros in the rightmost n bits.
+
+---
+
+This section covers bitwise operators such as AND, OR, XOR, left and right shifts, and one's complement. It includes practical uses like bit masking, setting, and a detailed explanation with an example function, `getbits`, for extracting specific bits from an integer.

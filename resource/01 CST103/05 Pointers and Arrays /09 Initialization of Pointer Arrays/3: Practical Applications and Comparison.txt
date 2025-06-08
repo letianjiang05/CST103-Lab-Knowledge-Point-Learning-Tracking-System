@@ -1,0 +1,2 @@
+Unit 3: Practical Applications and Comparison
+This unit provides comparisons between the declarations and implications of arrays of pointers and two-dimensional arrays using examples of character strings. It illustrates how declarations for arrays of pointers and two-dimensional arrays differ and how they store character strings of variable and fixed lengths, respectively.

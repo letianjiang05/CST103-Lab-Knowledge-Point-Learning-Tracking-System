@@ -1,0 +1,3 @@
+Unit 3: Continue Statement
+The continue statement is related to break, but less often used. It causes the next iteration of the enclosing for, while, or do loop to begin. In the while and do loops, this means that the test part is executed immediately. In the for loop, control passes to the increment step. The continue statement applies only to loops, not to switch. A continue inside a switch inside a loop causes the next loop iteration.
+

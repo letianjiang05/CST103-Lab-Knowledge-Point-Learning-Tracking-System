@@ -1,0 +1,5 @@
+Unit 2: Functions for Manipulating Points and Rectangles
+The demonstration involves writing functions to handle points and rectangles using structures. The makepoint function initializes a point structure from x and y components. This function can initialize structures dynamically or provide structured arguments to other functions.
+
+Functions like addpoint demonstrate arithmetic operations on points, taking structures as both arguments and return values. The function ptinrect checks if a point lies inside a rectangle, adhering to a specific convention for rectangle boundaries. Additionally, the canonrect function ensures a rectangle's coordinates are in a standardized form.
+

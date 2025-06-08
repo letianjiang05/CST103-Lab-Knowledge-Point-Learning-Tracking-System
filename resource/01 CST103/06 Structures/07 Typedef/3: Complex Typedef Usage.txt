@@ -1,0 +1,2 @@
+Unit 3: Complex Typedef Usage
+More intricate examples involve creating typedefs for structures, like defining Treenode as a structure and Treeptr as a pointer to that structure. This enables shorthand usage and clearer representation, such as utilizing Treeptr in place of struct tnode *.

@@ -1,0 +1,4 @@
+Unit 3: Accessing Union Members
+Members of a union are accessed similarly to structure members:
+
+union-name.member or union-pointer->member.

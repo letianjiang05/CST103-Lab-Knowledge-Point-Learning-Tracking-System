@@ -1,0 +1,2 @@
+Unit 4: Union Inside Structures and Arrays
+Unions can be nested within structures and arrays. Accessing members of a union within a structure involves using the same notation as for nested structures.

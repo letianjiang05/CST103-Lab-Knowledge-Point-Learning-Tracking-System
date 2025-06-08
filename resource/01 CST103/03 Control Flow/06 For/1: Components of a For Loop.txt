@@ -1,0 +1,2 @@
+Unit 1: Components of a For Loop
+Grammatically, the three components of a for loop are expressions. Most commonly, the first and third expressions are assignments or function calls and the second expression is a relational expression. Any of the three parts can be omitted, although the semicolons must remain. If the test, the second expression, is not present, it is taken as permanently true, creating an "infinite" loop.

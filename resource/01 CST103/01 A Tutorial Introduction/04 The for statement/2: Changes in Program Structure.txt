@@ -1,0 +1,2 @@
+Unit 2: Changes in Program Structure
+This iteration reduces the use of variables, retaining only `fahr` as an integer. The lower and upper limits and step size are included as constants directly within the `for` loop. The Celsius temperature computation is embedded within the `printf` statement itself.

@@ -1,0 +1,2 @@
+Unit 1: Introduction to printf
+The output function printf translates internal values to characters. We have used printf informally in previous chapters. The description here covers most typical uses but is not complete; for the full story, see Appendix B. printf converts, formats, and prints its arguments on the standard output under control of the format. It returns the number of characters printed.

@@ -1,0 +1,3 @@
+Unit 1: Introduction to Bit-fields
+Bit-fields provide a method of compactly storing multiple objects within a single machine word. This unit explores their utility in scenarios where storage efficiency is crucial, such as compiler symbol tables and interfacing with hardware devices. In the context of a symbol table for a compiler, individual identifiers often carry information represented as single-bit flags within a char or int, achieved by defining masks for relevant bit positions using shifting, masking, and complementing operators.
+

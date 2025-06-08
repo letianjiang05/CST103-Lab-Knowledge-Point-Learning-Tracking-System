@@ -1,0 +1,2 @@
+Unit 5: Appendices and Acknowledgments
+The appendices contain essential information about the standard and its library, serving as references for programmers. The authors express gratitude to numerous individuals whose insightful comments and contributions aided in the creation of the second edition.

@@ -1,0 +1,2 @@
+Unit 7: Maintaining Consistency in Declarations
+Consistency in declarations, especially when variables are defined in one file and used in another, is vital for proper linkage. Declarations in one file must align with definitions in others to ensure the program's correct behavior.

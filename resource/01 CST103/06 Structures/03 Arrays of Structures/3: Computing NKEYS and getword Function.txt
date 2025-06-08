@@ -1,0 +1,2 @@
+Unit 3: Computing NKEYS and getword Function
+The size of NKEYS is calculated using the sizeof operator, determining the number of keywords in keytab. This computation is embedded within a #define statement to set the value of NKEYS. Additionally, the getword function fetches words or characters from the input stream, identifying alphanumeric tokens and handling white spaces, making use of functions like isspace, isalpha, and isalnum from the <ctype.h> header.

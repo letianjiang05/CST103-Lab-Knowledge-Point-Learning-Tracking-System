@@ -1,0 +1,4 @@
+Unit 3: gets and puts Functions
+
+While gets and puts resemble fgets and fputs, they specifically operate on stdin and stdout. gets surprisingly removes the trailing '\n', whereas puts adds it when writing to output.
+

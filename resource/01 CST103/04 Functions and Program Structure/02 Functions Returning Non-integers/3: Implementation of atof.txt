@@ -1,0 +1,12 @@
+Unit 3: Implementation of atof
+To define `atof`, we specify its return type before the function name:
+
+```c
+#include <ctype.h>
+/* atof: convert string s to double */
+double atof(char s[]) {
+    // Implementation details
+    // ...
+    return sign * val / power;
+}
+```

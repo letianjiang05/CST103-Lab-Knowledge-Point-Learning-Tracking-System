@@ -1,0 +1,4 @@
+Unit 5: Union Characteristics
+A union acts like a structure with all members at offset zero from the base.
+The size of the union accommodates the widest member.
+Operations such as assignment, copying as a unit, taking the address, and accessing members are permitted on unions.

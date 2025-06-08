@@ -1,0 +1,6 @@
+Unit 3: Octal and Hexadecimal Constants
+
+An integer's value can be specified in octal or hexadecimal instead of decimal.
+
+- A leading '0' denotes an octal constant; '0x' or '0X' denotes a hexadecimal constant.
+- Octal and hexadecimal constants may also be followed by 'L' for long or 'U' for unsigned.

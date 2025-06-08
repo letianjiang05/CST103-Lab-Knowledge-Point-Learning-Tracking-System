@@ -1,0 +1,2 @@
+Unit 1: Arrays of Structures for Keyword Counting
+To efficiently count occurrences of C keywords, an array of structures is introduced. Rather than using parallel arrays for keyword names and counts, a structure key containing word (for the keyword name) and count (for occurrences) is employed. This structure is then instantiated in an array keytab[NKEYS].

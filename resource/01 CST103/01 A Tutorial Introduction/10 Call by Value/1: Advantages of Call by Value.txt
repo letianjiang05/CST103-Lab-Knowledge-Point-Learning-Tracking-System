@@ -1,0 +1,13 @@
+Unit 1: Advantages of Call by Value
+Call by value is an asset, not a liability. It usually leads to more compact programs with fewer extraneous variables, because parameters can be treated as conveniently initialized local variables in the called routine. For example, here is a version of power that makes use of this property.
+```c
+/* power: raise base to n-th power; n >= 0; version 2 */
+int power(int base, int n)
+{
+    int p;
+    for (p = 1; n > 0; --n)
+        p = p * base;
+    return p;
+}
+```
+The parameter n is used as a temporary variable, and is counted down (a for loop that runs backwards) until it becomes zero; there is no longer a need for the variable i. Whatever is done to n inside power has no effect on the argument that power was originally called with.

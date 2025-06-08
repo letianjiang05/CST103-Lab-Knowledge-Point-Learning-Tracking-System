@@ -1,0 +1,5 @@
+Unit 1: File Access Introduction and File Pointers
+
+In programming, accessing files not inherently connected to a program requires file-handling functions. For instance, the 'cat' program concatenates named files into standard output. It's crucial to understand the process of associating external names (file names) with read/write statements.
+
+Before reading or writing, a file must be opened using 'fopen', which takes an external name (e.g., 'x.c' or 'y.c') and returns a 'FILE' pointer. This 'FILE' pointer indicates the file's status, buffer location, read/write mode, and error occurrences.

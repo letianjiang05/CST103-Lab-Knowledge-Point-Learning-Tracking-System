@@ -1,0 +1,2 @@
+Unit 3: Memory Allocation and Exercises
+Memory allocation is handled using functions like talloc and strdup, ensuring proper space allocation and string duplication for nodes. It touches on the complexities of memory management and allocation in C programs.

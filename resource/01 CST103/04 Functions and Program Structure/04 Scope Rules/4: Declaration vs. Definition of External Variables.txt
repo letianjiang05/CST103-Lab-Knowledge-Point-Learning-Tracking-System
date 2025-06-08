@@ -1,0 +1,5 @@
+Unit 4: Trade-offs
+There is a tradeoff between the desire that each file have access only to the information it needs for its job and the practical reality that it is harder to maintain more header files. Up to some moderate program size, it is probably best to have one header file that contains everything that is to be shared between any two parts of the program; that is the decision we made here. For a much larger program, more organization and more headers would be needed. Unit 
+
+Declaration vs. Definition of External Variables
+Differentiating between declaration and definition of external variables is crucial. A declaration announces properties like type, while a definition allocates storage. External variables can be declared using `extern`, specifying their type without allocating storage. There must be only one definition of an external variable among all program files.

@@ -1,0 +1,17 @@
+Unit 2: Recursive Functions in C
+Here is an example of a recursive function in C:
+```c
+#include <stdio.h>
+/* printd: print n in decimal */
+void printd(int n)
+{
+    if (n < 0) {
+        putchar('-');
+        n = -n;
+    }
+    if (n / 10)
+        printd(n / 10);
+    putchar(n % 10 + '0');
+}
+```
+When a function calls itself recursively, each invocation gets a fresh set of all the automatic variables, independent of the previous set. This in printd(123) the first printd receives the argument n = 123. It passes 12 to a second printd, which in turn passes 1 to a third. The third-level printd prints 1, then returns to the second level. That printd prints 2, then returns to the first level. That one prints 3 and terminates.

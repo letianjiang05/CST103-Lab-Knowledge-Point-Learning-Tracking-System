@@ -1,0 +1,2 @@
+Unit 2: Typedef Examples
+The syntax involves placing the new type name in the position of a variable name, not immediately after typedef. For instance, typedef char *String; makes String synonymous with char *. This approach permits the use of String in various declarations and casts, enhancing code readability and abstraction.

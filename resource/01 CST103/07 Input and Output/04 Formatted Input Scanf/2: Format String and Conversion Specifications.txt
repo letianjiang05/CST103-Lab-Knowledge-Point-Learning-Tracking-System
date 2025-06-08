@@ -1,0 +1,5 @@
+Unit 2: Format String and Conversion Specifications
+
+The format string in `scanf` comprises blanks or tabs (not ignored), ordinary characters (not `%`) that are expected to match the next non-whitespace character of the input stream, and conversion specifications. These specifications consist of `%`, an optional assignment suppression character `*`, an optional number indicating the maximum field width, an optional `h`, `l`, or `L` denoting the target's width, and a conversion character.
+
+Conversion specifications guide the input field conversion. Typically, the result is placed in the variable pointed to by the corresponding argument. However, if assignment suppression is indicated by `*`, no assignment is made. An input field is a string of non-whitespace characters, extending to the next whitespace character or until the specified field width is exhausted.

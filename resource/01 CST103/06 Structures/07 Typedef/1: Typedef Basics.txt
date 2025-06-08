@@ -1,0 +1,2 @@
+Unit 1: Typedef Basics
+The typedef keyword in C allows for the creation of new type names, providing a way to alias existing data types. For instance, typedef int Length; makes Length equivalent to int. This enables the use of Length in declarations, casts, and other contexts like one would use int.

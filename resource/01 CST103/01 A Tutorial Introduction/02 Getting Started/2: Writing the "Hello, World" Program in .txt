@@ -1,0 +1,13 @@
+Unit 2: Writing the "Hello, World" Program in C
+In C, the "hello, world" program is defined through specific steps. A sample code includes:
+
+```c
+#include <stdio.h>
+
+main() {
+    printf("hello, world\n");
+}
+```
+
+Execution procedures vary based on the operating system. For instance, on UNIX, the program must be saved in a ".c" file, compiled using `cc hello.c`, leading to the creation of an executable file named "a.out." Running `a.out` displays the output.
+

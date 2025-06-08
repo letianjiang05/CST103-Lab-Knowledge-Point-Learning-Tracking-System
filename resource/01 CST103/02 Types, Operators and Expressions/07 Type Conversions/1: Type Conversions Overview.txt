@@ -1,0 +1,8 @@
+Unit 1: Type Conversions Overview
+
+When operators have operands of different types in C, they're converted to a common type based on specific rules.
+
+- Automatic conversions usually involve converting a narrower operand to a wider one without losing information, like converting an integer to floating point in expressions.
+- Sensible conversions occur; for instance, using a float as a subscript is not allowed.
+
+ 

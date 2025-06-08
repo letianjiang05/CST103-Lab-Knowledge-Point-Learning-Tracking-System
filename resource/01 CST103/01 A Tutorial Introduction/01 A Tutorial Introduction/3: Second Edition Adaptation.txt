@@ -1,0 +1,2 @@
+Unit 3: Second Edition Adaptation
+The Second Edition of The C Programming Language aligns with the ANSI standard, exclusively utilizing the new form introduced. While noting the language's evolution, the book primarily focuses on the new format, with the most noticeable change being in function declaration and definition. Most modern compilers already support the standard's features.

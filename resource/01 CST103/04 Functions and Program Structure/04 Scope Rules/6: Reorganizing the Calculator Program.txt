@@ -1,0 +1,2 @@
+Unit 6: Reorganizing the Calculator Program
+While the calculator program might not need splitting due to its size, imagining functions like push and pop in one file while variables like val and sp are in another demonstrates the need for proper declarations and definitions to connect them across files. `extern` declarations help link these elements together.

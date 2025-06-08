@@ -1,0 +1,5 @@
+Unit 3: Constraints of the Modulus Operator
+
+- The `%` operator cannot be used with float or double operands.
+- For negative operands, the direction of truncation for division (`/`) and the sign of the result for `%` are machine-dependent.
+- Overflow or underflow actions are also machine-dependent.

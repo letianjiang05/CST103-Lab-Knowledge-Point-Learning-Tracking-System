@@ -1,0 +1,38 @@
+Unit 3: Parsing Declarations with dcl Program
+The heart of the dcl program is a pair of functions, dcl and dirdcl, that parse a declaration according to this grammar. Because the grammar is recursively defined, the functions call each other recursively as they recognize pieces of a declaration; the program is called a recursive-descent parser. Here are the global variables and the main routine:
+```c
+#include <stdio.h>
+#include <string.h>
+/* dcl: parse a declarator */
+void dcl(void)
+{
+    int ns;
+    for (ns = 0; gettoken() == '*'; ) /* count *'s */
+        ns++;
+    dirdcl();
+    while (ns-- > 0)
+        strcat(out, " pointer to");
+}
+/* dirdcl: parse a direct declarator */
+void dirdcl(void)
+{
+    int type;
+    if (tokentype == '(') { /* ( dcl ) */
+        dcl();
+        if (tokentype != ')')
+            printf("error: missing )\n");
+    } else if (tokentype == NAME) /* variable name */
+        strcpy(name, token); 
+    else
+        printf("error: expected name or (dcl)\n");
+    while ((type=gettoken()) == PARENS || type == BRACKETS)
+        if (type == PARENS)
+            strcat(out, " function returning");
+        else {
+            strcat(out, " array");
+            strcat(out, token);
+            strcat(out, " of");
+        }
+}
+```
+Since the programs are intended to be illustrative, not bullet-proof, there are significant restrictions on dcl. It can only handle a simple data type line char or int. It does not handle argument types in functions, or qualifiers like const. Spurious blanks confuse it. It doesn't do much error recovery, so invalid declarations will also confuse it. These improvements are left as exercises.

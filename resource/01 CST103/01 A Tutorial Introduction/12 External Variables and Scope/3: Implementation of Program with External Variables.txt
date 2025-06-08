@@ -1,0 +1,5 @@
+Unit 3: Implementation of Program with External Variables
+
+- Presents a rewritten version of the longest-line program utilizing external variables.
+- Demonstrates changes in calls, declarations, and function bodies to accommodate external variables.
+- Emphasizes the need for `extern` declarations in functions accessing external variables.

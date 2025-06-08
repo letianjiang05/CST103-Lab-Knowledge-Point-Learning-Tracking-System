@@ -1,0 +1,2 @@
+Unit 3: Pointers to Structures and Notation
+For more efficient handling of large structures in functions, using pointers to structures is recommended. These pointers resemble pointers to ordinary variables. The notation -> provides a shorthand for accessing structure members via pointers, making code more concise and readable. Parentheses are crucial to distinguish operators in complex expressions involving structures and pointers.

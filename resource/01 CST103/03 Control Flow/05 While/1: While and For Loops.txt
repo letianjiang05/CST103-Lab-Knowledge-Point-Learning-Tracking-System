@@ -1,0 +1,2 @@
+Unit 1: While and For Loops
+We have already encountered the while and for loops. In a while loop, the expression is evaluated. If it is non-zero, the statement is executed and the expression is reevaluated. This cycle continues until the expression becomes zero, at which point execution resumes after the statement. The for loop is equivalent to initializing an expression, then entering a while loop where the statement is executed and the expression is incremented, except for the behaviour of continue.

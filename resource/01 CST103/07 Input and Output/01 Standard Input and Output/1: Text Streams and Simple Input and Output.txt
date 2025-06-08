@@ -1,0 +1,2 @@
+Unit 1: Text Streams and Simple Input/Output
+In C, the standard input/output library provides a basic model for text input and output. A text stream consists of lines, each ending with a newline character. The library manages system-specific differences, like converting carriage return and linefeed to newline on input and vice versa on output.

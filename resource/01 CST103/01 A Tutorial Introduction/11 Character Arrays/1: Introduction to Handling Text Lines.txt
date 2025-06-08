@@ -1,0 +1,3 @@
+Unit 1: Introduction to Handling Text Lines
+
+This section introduces a program that reads multiple text lines and prints the longest line among them. It outlines the structure of the program, indicating its natural divisions into distinct functions: one to obtain a new line, another to save it, and the rest to control the process. It suggests designing a `getline` function to fetch lines of input, and a `copy` function to store the longest line.

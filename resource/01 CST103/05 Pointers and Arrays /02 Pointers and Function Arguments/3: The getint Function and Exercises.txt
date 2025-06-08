@@ -1,0 +1,30 @@
+Unit 3: The getint Function and Exercises
+As an example, consider a function getint that performs free-format input conversion by breaking a stream of characters into integer values, one integer per call. getint has to return the value it found and also signal end of file when there is no more input. These values have to be passed back by separate paths, for no matter what value is used for EOF, that could also be the value of an input integer.
+```c
+int n, array[SIZE], getint(int *);
+for (n = 0; n < SIZE && getint(&array[n]) != EOF; n++)
+;
+```
+Each call sets array[n] to the next integer found in the input and increments n. Notice that it is essential to pass the address of array[n] to getint. Otherwise there is no way for getint to communicate the converted integer back to the caller.
+```c
+int getint(int *pn)
+{
+    int c, sign;
+    while (isspace(c = getch())) /* skip white space */
+    ;
+    if (!isdigit(c) && c != EOF && c != '+' && c != '-') {
+        ungetch(c); /* it is not a number */
+        return 0;
+    }
+    sign = (c == '-') ? -1 : 1;
+    if (c == '+' || c == '-')
+        c = getch();
+    for (*pn = 0; isdigit(c), c = getch())
+        *pn = 10 * *pn + (c - '0');
+    *pn *= sign;
+    if (c != EOF)
+        ungetch(c);
+    return c;
+}
+```
+Throughout getint, *pn is used as an ordinary int variable. We have also used getch and ungetch (described in Section 4.3) so the one extra character that must be read can be pushed back onto the input. The unit ends with two exercises for the reader to complete.

@@ -1,0 +1,5 @@
+Unit 3: Basic Scanf Conversions and Examples
+
+The conversion characters in `scanf` are diverse, as outlined in Table 7.2. They cover integers (decimal, octal, hexadecimal, unsigned), characters, strings, floating-point numbers, and literal `%`. These conversions can also be preceded by `h` or `l` to adjust the argument list accordingly.
+
+Examples demonstrate how `scanf` can be applied in various scenarios. For instance, a rudimentary calculator can be built using `scanf` for input conversion. Handling date inputs, scanning fixed and variable-format inputs, and ensuring proper pointer usage are illustrated through code snippets. Mixing `scanf` with other input functions is also discussed, emphasizing that subsequent calls to input functions will resume from unread characters. Additionally, a common error involving pointers in `scanf` arguments is highlighted for caution.

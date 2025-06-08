@@ -1,0 +1,33 @@
+Unit 1: Program Description for Character Occurrences
+
+Let's write a program to count occurrences of digits, white space characters (such as blank, tab, newline), and all other characters. This program might seem artificial, but it serves as an excellent illustration of multiple aspects of C programming.
+
+```c
+#include <stdio.h>
+
+/* Count digits, white space, others */
+main() {
+    int c, i, nwhite, nother;
+    int ndigit[10];
+    
+    nwhite = nother = 0;
+    for (i = 0; i < 10; ++i)
+        ndigit[i] = 0;
+    
+    while ((c = getchar()) != EOF)
+        if (c >= '0' && c <= '9')
+            ++ndigit[c-'0'];
+        else if (c == ' ' || c == '\n' || c == '\t')
+            ++nwhite;
+        else
+            ++nother;
+    
+    printf("digits =");
+    for (i = 0; i < 10; ++i)
+        printf(" %d", ndigit[i]);
+    
+    printf(", white space = %d, other = %d\n", nwhite, nother);
+}
+```
+
+This program uses an array `ndigit` to count occurrences of digits, employing a loop to initialize and display the occurrences.

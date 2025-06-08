@@ -1,0 +1,25 @@
+Unit 1: basics of functions in C programming. 
+
+It starts with an example of designing a program to print each line of its input that contains a particular "pattern" or string of characters. This is a special case of the UNIX program `grep`. 
+
+The job is divided into three pieces:
+1. While there's another line
+2. If the line contains the pattern
+3. Print it
+
+Each part is made into a separate function. This approach is beneficial because it buries irrelevant details in the functions, minimizes the chance of unwanted interactions, and the pieces may even be useful in other programs.
+
+The function `getline` is used for the first part, and `printf` for the third part. The second part is solved by writing a function `strindex(s,t)` that returns the position or index in the string `s` where the string `t` begins, or -1 if `s` does not contain `t`.
+
+The code provided shows the entire program, including the `getline` and `strindex` functions. The pattern to be searched for is a literal string. The `getline` function gets a line into `s` and returns its length. The `strindex` function returns the index of `t` in `s`, or -1 if none.
+
+Each function definition has the form:
+```c
+return-type function-name(argument declarations)
+{
+    declarations and statements
+}
+```
+Various parts may be absent. A minimal function is `dummy() {}`, which does nothing and returns nothing. A do-nothing function like this is sometimes useful as a place holder during program development. If the return type is omitted, `int` is assumed.
+
+A program is just a set of definitions of variables and functions. Communication between the functions is by arguments and values returned by the functions, and through external variables. The text seems to be cut off at the end. Please provide the rest of the text if you need more information.

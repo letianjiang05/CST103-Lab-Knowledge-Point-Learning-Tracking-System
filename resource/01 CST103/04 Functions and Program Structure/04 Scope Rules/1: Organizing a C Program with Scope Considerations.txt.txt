@@ -1,0 +1,3 @@
+Unit 1: Organizing a C Program with Scope Considerations
+
+When building a C program, it's common to split the source code across multiple files and utilize libraries. Several questions arise regarding declarations, connections, organization, and initialization of variables. We'll explore these by reorganizing a calculator program to highlight these concerns, despite the small size of the calculator program.

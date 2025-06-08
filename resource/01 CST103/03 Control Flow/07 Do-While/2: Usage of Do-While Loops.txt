@@ -1,0 +1,20 @@
+Unit 2: Usage of Do-While Loops
+Experience shows that do-while is much less used than while and for. Nonetheless, from time to time it is valuable. For example, in the following function `itoa`, which converts a number to a character string (the inverse of `atoi`). The job is slightly more complicated than might be thought at first, because the easy methods of generating the digits generate them in the wrong order. We have chosen to generate the string backwards, then reverse it.
+```c
+/* itoa: convert n to characters in s */
+void itoa(int n, char s[])
+{
+    int i, sign;
+    if ((sign = n) < 0) /* record sign */
+        n = -n; /* make n positive */
+    i = 0;
+    do { /* generate digits in reverse order */
+        s[i++] = n % 10 + '0'; /* get next digit */
+    } while ((n /= 10) > 0); /* delete it */
+    if (sign < 0)
+        s[i++] = '-';
+    s[i] = '\0';
+    reverse(s);
+}
+```
+The do-while is necessary, or at least convenient, since at least one character must be installed in the array `s`, even if `n` is zero.

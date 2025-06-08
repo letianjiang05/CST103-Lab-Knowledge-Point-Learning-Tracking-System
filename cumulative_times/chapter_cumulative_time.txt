@@ -1,0 +1,10 @@
+01 A Tutorial Introduction
+115.000000
+02 Types, Operators and Expressions
+136.000000
+03 Control Flow
+13.000000
+06 Structures
+36.000000
+.DS_Store
+0.000000

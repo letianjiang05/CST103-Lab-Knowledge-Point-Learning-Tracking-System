@@ -1,0 +1,8 @@
+Unit 3: Sizes and Compiler Flexibility
+- 'int' will normally be the natural size for a particular machine.
+- 'short' is often 16 bits long, and 'int' either 16 or 32 bits.
+- Each compiler is free to choose appropriate sizes for its hardware.
+- However, there are restrictions:
+  - 'shorts' and 'ints' are at least 16 bits.
+  - 'longs' are at least 32 bits.
+  - 'short' is no longer than 'int', which is no longer than 'long'.

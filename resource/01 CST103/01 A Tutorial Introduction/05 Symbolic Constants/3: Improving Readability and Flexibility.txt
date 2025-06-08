@@ -1,0 +1,2 @@
+Unit 3: Improving Readability and Flexibility
+Symbolic constants, typically denoted in uppercase letters, replace arbitrary numbers to enhance code comprehension. Using these constants provides a straightforward way to modify values across the program systematically.

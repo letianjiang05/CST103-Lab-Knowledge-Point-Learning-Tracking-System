@@ -1,0 +1,5 @@
+
+Unit 2: Implementation and Functions
+The main program utilizes routines like getword and addtree to read words and insert them into the tree, respectively. The recursive addtree function efficiently percolates words down the tree, either incrementing counts for matching words or creating new nodes for unseen words.
+
+The treeprint function prints the tree in a sorted order, navigating left subtree, node, and right subtree recursively.

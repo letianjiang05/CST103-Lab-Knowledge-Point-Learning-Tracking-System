@@ -1,0 +1,23 @@
+Unit 1: Fahrenheit-Celsius Conversion Program
+The program generates a table displaying Fahrenheit temperatures alongside their corresponding Celsius equivalents, utilizing arithmetic expressions, loops, formatted output, and variable declarations.
+
+```c
+#include <stdio.h>
+
+/* Print Fahrenheit-Celsius table for fahr = 0, 20, ..., 300 */
+main() {
+    int fahr, celsius;
+    int lower, upper, step;
+
+    lower = 0;    /* Lower limit of temperature scale */
+    upper = 300;  /* Upper limit */
+    step = 20;    /* Step size */
+    fahr = lower;
+
+    while (fahr <= upper) {
+        celsius = 5 * (fahr - 32) / 9;
+        printf("%d\t%d\n", fahr, celsius);
+        fahr = fahr + step;
+    }
+}
+```

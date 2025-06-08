@@ -1,0 +1,3 @@
+Unit 2: Explanation of Array Usage and Character Representation
+
+The `int ndigit[10];` declaration creates an array of 10 integers, allowing us to count occurrences of each digit using array elements `ndigit[0]` through `ndigit[9]`. The program capitalizes on the properties of character representation in determining whether a character is a digit or not.

@@ -1,0 +1,3 @@
+Unit 4: Introduction to the Switch Statement and Exercises
+
+The text mentions the `switch` statement as an alternative for multi-way branches and presents two exercises, 1-13 and 1-14, challenging the reader to develop programs to generate histograms based on word lengths and character frequencies, respectively, in input data.

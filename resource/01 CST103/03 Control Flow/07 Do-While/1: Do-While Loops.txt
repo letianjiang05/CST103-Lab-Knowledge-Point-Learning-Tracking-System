@@ -1,0 +1,8 @@
+Unit 1: Do-While Loops
+The do-while loop is the third type of loop in C, which tests the termination condition at the bottom after making each pass through the loop body. This means the body is always executed at least once. The syntax of the do-while loop is:
+```c
+do
+    statement
+while (expression);
+```
+The statement is executed, then the expression is evaluated. If it is true, the statement is evaluated again, and so on. When the expression becomes false, the loop terminates. Except for the sense of the test, do-while is equivalent to the Pascal repeat-until statement.

@@ -1,0 +1,4 @@
+Unit 2: Usage and Initialization of Structures
+A struct declaration defines a type, allowing the creation of variables of that type. An example struct point pt; defines a variable pt of type struct point. Initialization of structures can be done through initializers for its members, allowing the creation of instances with predefined values.
+
+Structures can also be initialized through assignment or by utilizing functions returning structures of the correct type. Accessing members within a structure is achieved using the dot . operator, connecting the structure name and the member name.

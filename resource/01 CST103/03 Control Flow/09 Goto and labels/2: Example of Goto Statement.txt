@@ -1,0 +1,14 @@
+Unit 2: Example of Goto Statement
+Here is an example of using goto to handle errors in a nested loop structure:
+```c
+for ( ... )
+    for ( ... ) {
+        ...
+        if (disaster)
+            goto error;
+    }
+    ...
+error:
+    /* clean up the mess */
+```
+This organization is handy if the error-handling code is non-trivial, and if errors can occur in several places.

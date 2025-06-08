@@ -1,0 +1,29 @@
+Unit 3: Quicksort - A Recursive Algorithm
+Another good example of recursion is quicksort, a sorting algorithm developed by C.A.R. Hoare in 1962. Given an array, one element is chosen and the others partitioned into two subsets - those less than the partition element and those greater than or equal to it. The same process is then applied recursively to the two subsets. When a subset has fewer than two elements, it doesn't need any sorting; this stops the recursion. Our version of quicksort is not the fastest possible, but it's one of the simplest. We use the middle element of each subarray for partitioning. Here is the code:
+```c
+/* qsort: sort v[left]...v[right] into increasing order */
+void qsort(int v[], int left, int right)
+{
+    int i, last;
+    void swap(int v[], int i, int j); 
+    if (left >= right) /* do nothing if array contains */
+        return; /* fewer than two elements */
+    swap(v, left, (left + right)/2); /* move partition elem */
+    last = left; /* to v[0] */
+    for (i = left + 1; i <= right; i++) /* partition */
+        if (v[i] < v[left])
+            swap(v, ++last, i);
+    swap(v, left, last); /* restore partition elem */
+    qsort(v, left, last-1);
+    qsort(v, last+1, right);
+}
+/* swap: interchange v[i] and v[j] */
+void swap(int v[], int i, int j)
+{
+    int temp;
+    temp = v[i];
+    v[i] = v[j];
+    v[j] = temp;
+}
+```
+The standard library includes a version of qsort that can sort objects of any type. Recursion may provide no saving in storage, since somewhere a stack of the values being processed must be maintained. Nor will it be faster. But recursive code is more compact, and often much easier to write and understand than the non-recursive equivalent. Recursion is especially convenient for recursively defined data structures like trees, we will see a nice example in Section 6.6.

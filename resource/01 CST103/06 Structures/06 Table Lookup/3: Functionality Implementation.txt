@@ -1,0 +1,6 @@
+Unit 3: Functionality Implementation
+lookup traverses the list to find a matching entry and returns a pointer if found, else NULL. install uses lookup to determine existence before updating or creating an entry. It handles memory allocation for new entries and updates existing ones.
+
+Exercises
+Exercise 6-5: Implement a function undef to remove a name and its definition from the lookup table.
+Exercise 6-6: Develop a basic #define processor for C programs, reliant on the techniques and routines presented in this section. The processor should manage simple replacements without arguments, possibly leveraging getch and ungetch functionalities.

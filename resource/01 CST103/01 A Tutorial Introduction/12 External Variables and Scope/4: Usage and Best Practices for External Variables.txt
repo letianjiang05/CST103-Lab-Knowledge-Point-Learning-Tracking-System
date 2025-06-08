@@ -1,0 +1,4 @@
+Unit 4: Usage and Best Practices for External Variables
+
+- Discusses the usage of `extern` declarations and their redundancy in specific contexts.
+- Introduces the practice of organizing external declarations in header files and including them at the beginning of source files.

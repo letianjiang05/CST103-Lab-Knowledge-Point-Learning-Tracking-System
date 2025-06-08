@@ -1,0 +1,6 @@
+Unit 1: Increment and Decrement Operators Overview
+
+In C, the `++` operator increments by 1, while the `--` operator decrements by 1. These operators can be used as prefix (++n) or postfix (n++).
+
+- `++n` increments n before its value is used, while `n++` increments n after its value is used.
+- For instance, `x = n++` sets x to the value of n before incrementing, while `x = ++n` increments n first, then assigns its value to x.

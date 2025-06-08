@@ -1,0 +1,11 @@
+Unit 1: Variable Declarations
+
+In C, all variables must be declared before use. Declarations specify a type and contain a list of one or more variables of that type.
+
+- Declaration example: 
+  ```c
+  int lower, upper, step;
+  char c, line[1000];
+  ```
+- Variables can be distributed among declarations in any order.
+- Declarations can also be written separately for clarity and ease of modification, with added comments for each variable.

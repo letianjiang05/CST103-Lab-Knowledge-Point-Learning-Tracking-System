@@ -1,0 +1,2 @@
+Unit 1: Address Arithmetic
+If p is a pointer to some element of an array, then p++ increments p to point to the next element, and p+=i increments it to point i elements beyond where it currently does. These and similar constructions are the simplest forms of pointer or address arithmetic. C is consistent and regular in its approach to address arithmetic; its integration of pointers, arrays, and address arithmetic is one of the strengths of the language.

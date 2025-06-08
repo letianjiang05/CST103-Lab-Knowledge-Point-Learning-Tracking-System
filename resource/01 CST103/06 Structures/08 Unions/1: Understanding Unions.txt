@@ -1,0 +1,2 @@
+Unit 1: Understanding Unions
+In C, a union is a variable that can hold different types of data, each with different sizes. It's akin to variant records in Pascal. A union allows the manipulation of diverse data types within a single storage area, without embedding machine-dependent information into the program.

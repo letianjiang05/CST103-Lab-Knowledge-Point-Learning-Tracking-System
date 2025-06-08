@@ -1,0 +1,5 @@
+Unit 5: Side Effects
+
+Function calls, nested assignment statements, and increment and decrement operators cause "side effects," where variables are changed as a by-product of expression evaluation. The order in which variables taking part in the expression are updated is left to the discretion of the compiler.
+
+It is important to avoid writing code that depends on the order of evaluation, as it is not guaranteed to produce consistent results across different compilers and architectures.

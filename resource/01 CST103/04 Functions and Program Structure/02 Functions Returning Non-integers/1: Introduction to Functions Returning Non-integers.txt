@@ -1,0 +1,2 @@
+Unit 1: Introduction to Functions Returning Non-integers
+In programming, functions aren't limited to returning void or int values. There are cases where a function needs to return values of other types, such as double or specialized types like those used in numerical functions (e.g., sqrt, sin, cos). 

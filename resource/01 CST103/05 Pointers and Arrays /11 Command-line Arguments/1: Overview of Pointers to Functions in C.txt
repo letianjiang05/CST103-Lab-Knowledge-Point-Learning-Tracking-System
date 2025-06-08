@@ -1,0 +1,4 @@
+Unit 1: Overview of Pointers to Functions in C
+In C, functions can't be treated as variables, but pointers to functions can be defined and utilized in various ways, including assigning them, placing in arrays, passing to functions, or returning from functions. We demonstrate this concept by adapting a sorting procedure, enabling it to sort input lines numerically instead of lexicographically when provided with the optional argument -n.
+
+A sorting process typically involves three main components: a comparison determining the order of objects, an exchange that reverses their order, and a sorting algorithm arranging objects in order. The sorting algorithm remains separate from comparison and exchange operations. By passing different comparison and exchange functions to the sorting algorithm, we can customize the sorting criteria, as seen in our revised sorting implementation.

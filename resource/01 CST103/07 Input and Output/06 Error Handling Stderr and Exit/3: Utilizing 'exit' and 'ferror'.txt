@@ -1,0 +1,5 @@
+Unit 3: Utilizing 'exit' and 'ferror'
+
+The 'exit' function terminates program execution and returns a status code, aiding in signalizing successful execution (usually 0) or abnormal scenarios (non-zero values). It also ensures any buffered output is flushed by implicitly calling 'fclose'. The 'ferror' function validates if an error occurred on a specific stream ('fp'), essential in handling output errors, albeit rare.
+
+By integrating 'stderr' for error output and employing 'exit' to manage program termination and exit statuses, the revised 'cat' program demonstrates improved error handling. In real-world applications, monitoring and utilizing exit statuses is crucial for effective program behavior and error management.

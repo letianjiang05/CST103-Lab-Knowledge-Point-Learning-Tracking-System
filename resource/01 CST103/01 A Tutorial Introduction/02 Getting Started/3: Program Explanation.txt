@@ -1,0 +1,2 @@
+Unit 3: Program Explanation
+The program revolves around functions and variables. Functions encapsulate computing actions, while variables store values for computation. The `main` function serves as the entry point for program execution, with C programs necessitating the presence of a `main` function.

@@ -1,0 +1,2 @@
+Unit 1: Break Statement
+The break statement provides an early exit from for, while, and do loops, as well as from switch statements. A break causes the innermost enclosing loop or switch to be exited immediately.

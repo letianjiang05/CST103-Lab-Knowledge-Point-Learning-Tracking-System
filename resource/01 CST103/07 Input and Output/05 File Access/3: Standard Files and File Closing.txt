@@ -1,0 +1,7 @@
+Unit 3: Standard Files and File Closing
+
+Upon program startup, three standard files, stdin, stdout, and stderr, are automatically opened, linked to the keyboard and screen. 'fclose' severs the connection established by 'fopen', freeing the file pointer for another file. Closing output files also flushes the output buffer.
+
+For practical implementation, the 'cat' program illustrates file concatenation by processing command-line arguments as filenames, reading them sequentially, or processing standard input in their absence. The 'filecopy' function within 'cat' duplicates file content from input to output.
+
+Understanding 'FILE' pointers, file opening modes, and standard file handling is crucial for interacting with files not inherently connected to a program. Proper file pointer management, opening, and closing are essential for efficient file handling in C programs.

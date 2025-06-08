@@ -1,0 +1,5 @@
+Unit 1: Precedence and Order of Evaluation
+
+Table 2.1: Precedence and Associativity of Operators
+
+Table 2.1 summarizes the rules for precedence and associativity of all operators, including those that we have not yet discussed. Operators on the same line have the same precedence. Rows are in order of decreasing precedence. For example, *, /, and % all have the same precedence, which is higher than that of binary + and -.

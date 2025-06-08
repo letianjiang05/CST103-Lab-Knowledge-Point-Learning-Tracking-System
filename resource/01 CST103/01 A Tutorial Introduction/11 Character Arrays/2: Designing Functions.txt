@@ -1,0 +1,3 @@
+Unit 2: Designing Functions
+
+The program is structured into functions `getline` and `copy` to fetch lines of input and save the longest line, respectively. The `getline` function is designed to provide a signal about the end of the file and return the length of the line (or zero if it encounters EOF), using a null character (`'\0'`) to mark the end of the string.

@@ -1,0 +1,5 @@
+Unit 2: External Variables and Their Attributes
+
+- Introduces the concept of external variables, which are accessible by any function as they exist outside of functions' scopes.
+- Explains that external variables retain their values even after the functions using them have returned.
+- Highlights that external variables must be defined once outside any function to allocate storage and declared in each function needing access to them.

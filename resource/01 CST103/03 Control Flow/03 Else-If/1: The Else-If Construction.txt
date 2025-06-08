@@ -1,0 +1,15 @@
+Unit 1: The Else-If Construction
+The construction:
+```c
+if (expression)
+    statement
+else if (expression)
+    statement
+else if (expression)
+    statement
+else if (expression)
+    statement
+else
+    statement
+```
+occurs so often that it is worth a brief separate discussion. This sequence of if statements is the most general way of writing a multi-way decision. The expressions are evaluated in order; if an expression is true, the statement associated with it is executed, and this terminates the whole chain. As always, the code for each statement is either a single statement, or a group of them in braces.

@@ -1,0 +1,6 @@
+Unit 4: Operator Precedence and Associativity
+
+- Binary `+` and `-` operators share the same precedence, which is lower than `*`, `/`, and `%`.
+- Precedence:
+  - `*`, `/`, `%` > `+`, `-` > unary `+`, `-`.
+- Arithmetic operators associate left to right.

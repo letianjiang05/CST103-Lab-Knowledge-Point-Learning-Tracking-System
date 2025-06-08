@@ -1,0 +1,9 @@
+Unit 4: Example of Continue Statement
+This fragment processes only the non-negative elements in the array `a`; negative values are skipped.
+```c
+for (i = 0; i < n; i++)
+    if (a[i] < 0) /* skip negative elements */
+        continue;
+    ... /* do positive elements */
+```
+The continue statement is often used when the part of the loop that follows is complicated, so that reversing a test and indenting another level would nest the program too deeply.

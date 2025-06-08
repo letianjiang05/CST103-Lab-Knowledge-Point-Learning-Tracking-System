@@ -1,0 +1,2 @@
+Unit 1: Overview of Pointer Arrays Initialization
+This section introduces the concept of initializing pointer arrays in the context of a specific problem: creating a function called 'month_name' that returns the name of the month corresponding to a given integer. It explains why this scenario is ideally suited for using an internal static array of pointers, where each pointer points to a string representing a month's name. The overview sets the stage for understanding how pointer arrays can be utilized to store and retrieve strings based on an index.

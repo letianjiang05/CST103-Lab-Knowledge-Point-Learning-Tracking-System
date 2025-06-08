@@ -1,0 +1,2 @@
+Unit 2: Illustrative Programs for Declarators
+The section presents two programs: dcl and undcl. The dcl program converts C declarations into a word description and vice versa, while the undcl program reverses the word description back into a C declaration. It demonstrates how complex C declarations can be parsed using a recursive-descent parser based on a declarator grammar.

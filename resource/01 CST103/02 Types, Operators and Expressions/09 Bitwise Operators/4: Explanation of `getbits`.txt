@@ -1,0 +1,5 @@
+Unit 4: Explanation of `getbits`
+
+1. `x >> (p+1-n)`: Shifts the desired field to the right end of `x`.
+2. `~0 << n`: Generates a mask with ones in the rightmost n bits.
+3. `~(~0 << n)`: Complements the mask to form zeros in the rightmost n bits.

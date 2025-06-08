@@ -1,0 +1,2 @@
+Unit 5: Limitations and Portability
+This unit discusses limitations of bit-fields, such as their restriction to only being declared as ints, the inability to take their addresses using the & operator, and the necessity of explicitly specifying signed or unsigned for portability reasons. Additionally, considerations for handling unnamed fields and forcing alignment at word boundaries using a width of 0 are outlined.

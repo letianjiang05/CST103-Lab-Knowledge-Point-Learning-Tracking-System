@@ -1,0 +1,2 @@
+Unit 1: Static Variables
+The variables `sp` and `val` in `stack.c`, and `buf` and `bufp` in `getch.c`, are for the private use of the functions in their respective source files, and are not meant to be accessed by anything else.

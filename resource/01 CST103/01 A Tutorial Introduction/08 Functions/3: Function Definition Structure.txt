@@ -1,0 +1,12 @@
+Unit 3: Function Definition Structure
+
+A function definition follows this structure:
+
+```c
+return-type function-name(parameter declarations, if any) {
+    declarations
+    statements
+}
+```
+
+Functions can be defined in any order and within one source file or spread across multiple files. However, a function cannot be split across files.

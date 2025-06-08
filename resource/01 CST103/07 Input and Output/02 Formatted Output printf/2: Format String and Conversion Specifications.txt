@@ -1,0 +1,2 @@
+Unit 2: Format String and Conversion Specifications
+The format string contains two types of objects: ordinary characters, which are copied to the output stream, and conversion specifications, each of which causes conversion and printing of the next successive argument to printf. Each conversion specification begins with a % and ends with a conversion character. Between the % and the conversion character there may be, in order: a minus sign, a number that specifies the minimum field width, a period, a number (the precision), and an h or l (letter ell).

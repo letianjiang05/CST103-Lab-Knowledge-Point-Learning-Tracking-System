@@ -1,0 +1,2 @@
+Unit 2: Keyword Counting Program
+The program begins by defining keytab, an array of structures representing keywords and their counts. The main routine uses a function called getword to read input words. For each word, it is checked if it is an alphanumeric keyword, and if found in keytab, the count for that keyword is incremented. Finally, the counts for each keyword with non-zero occurrences are printed.

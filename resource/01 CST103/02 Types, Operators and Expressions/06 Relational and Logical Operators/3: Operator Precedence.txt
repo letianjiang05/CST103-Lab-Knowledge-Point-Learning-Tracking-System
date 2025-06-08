@@ -1,0 +1,4 @@
+Unit 3: Operator Precedence
+
+- The precedence of `&&` is higher than `||`, both being lower than relational and equality operators.
+- Expressions like `i < lim - 1 && (c = getchar()) != '\n' && c != EOF` do not need extra parentheses due to precedence rules.

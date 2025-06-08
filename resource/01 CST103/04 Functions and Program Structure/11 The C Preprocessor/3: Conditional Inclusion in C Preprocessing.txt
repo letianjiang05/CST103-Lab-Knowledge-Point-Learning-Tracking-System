@@ -1,0 +1,23 @@
+Unit 3: Conditional Inclusion in C Preprocessing
+
+1. **Control Flow in Preprocessing:**
+   - Conditional statements in preprocessing control the inclusion of code based on evaluated conditions during compilation.
+   - `#if`, `#elif`, `#else`, `#endif`, `#ifdef`, and `#ifndef` directives are used for conditional inclusion.
+
+2. **`#if` and `#endif`:**
+   - `#if` evaluates a constant integer expression and includes subsequent lines if the expression is non-zero.
+   - `#endif` marks the end of the block included by `#if`.
+
+3. **`#define` and Conditional Inclusion:**
+   - Macros like `#define` are used to ensure that files are included only once, preventing multiple inclusions.
+   - For instance, `#if !defined(HDR)` ensures the contents of `hdr.h` are included only if `HDR` is not defined.
+
+4. **Conditional Header Inclusion:**
+   - Conditional inclusion can be used to selectively include different headers based on certain conditions.
+   - An example uses conditional directives to define a header file based on the value of `SYSTEM` and then includes it.
+
+5. **`#ifdef` and `#ifndef`:**
+   - `#ifdef` and `#ifndef` test whether a name is defined or not before performing conditional inclusion.
+   - They are specialized forms for testing the existence of a defined name.
+
+Conditional inclusion allows selective code inclusion, facilitating the use of headers and files without causing multiple inclusion issues. It's a powerful feature to control which code segments are compiled based on specific conditions.

@@ -1,0 +1,2 @@
+Unit 3: Best Practices for Variable Naming
+As a matter of style, it's best to avoid variable names that conceal names in an outer scope; the potential for confusion and error is too great. For example, within a function `f`, occurrences of `x` refer to the parameter, which is a double; outside `f`, they refer to the external `int`. The same is true of the variable `y`. This shows the importance of careful variable naming to avoid confusion.

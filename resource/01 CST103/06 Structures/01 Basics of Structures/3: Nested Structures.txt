@@ -1,0 +1,2 @@
+Unit 3: Nested Structures
+Structures can be nested within one another, enabling the creation of more complex structures. For instance, a rectangle representation can consist of two points indicating diagonally opposite corners. Declaring a struct rect screen; allows access to members of the nested struct point within the struct rect, such as screen.pt1.x, referencing the x-coordinate of pt1 within screen.

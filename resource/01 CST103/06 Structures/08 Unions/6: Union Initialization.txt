@@ -1,0 +1,2 @@
+Unit 6: Union Initialization
+A union can only be initialized with a value of the same type as its first member. For instance, a union like union u_tag described earlier can only be initialized with an integer value.

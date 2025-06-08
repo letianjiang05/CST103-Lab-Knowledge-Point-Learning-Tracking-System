@@ -1,0 +1,2 @@
+Unit 1: Introduction to Register Variables
+A register declaration advises the compiler that the variable in question will be heavily used. The idea is that register variables are to be placed in machine registers, which may result in smaller and faster programs. But compilers are free to ignore the advice.

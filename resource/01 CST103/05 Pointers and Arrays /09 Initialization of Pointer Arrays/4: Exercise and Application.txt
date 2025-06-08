@@ -1,0 +1,2 @@
+Unit 4: Exercise and Application
+The exercise given, rewriting routines like day_of_year and month_day with pointers instead of indexing, aims to reinforce the understanding of using pointers in place of indexing for practical implementations. It encourages exploring the application of pointers in functions to manipulate arrays, enhancing familiarity with pointer-based array manipulation techniques.

@@ -1,0 +1,2 @@
+Unit 3: Limitations of Register Variables
+It is not possible to take the address of a register variable, regardless of whether the variable is actually placed in a register. The specific restrictions on number and types of register variables vary from machine to machine. This reflects the fact that different machines have different hardware capabilities and constraints.

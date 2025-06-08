@@ -1,0 +1,2 @@
+Unit 2: The Function atof(s)
+One such example is the function `atof(s)`, which converts a given string `s` into its double-precision floating-point equivalent. It's an extension of `atoi`, handling signs, decimal points, and fractional parts. Although our version is basic, the standard library provides a more robust `atof` in `<stdlib.h>`.

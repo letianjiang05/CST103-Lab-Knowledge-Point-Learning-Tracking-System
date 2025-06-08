@@ -1,0 +1,2 @@
+Unit 7: Aligning Variables Using Union
+In Chapter 8's storage allocator, a union is used to enforce a variable to align on a specific storage boundary. This demonstrates one way unions can be used for memory alignment purposes.

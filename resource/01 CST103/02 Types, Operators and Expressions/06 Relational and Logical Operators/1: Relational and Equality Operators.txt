@@ -1,0 +1,6 @@
+Unit 1: Relational and Equality Operators
+
+C includes relational operators: `>`, `>=`, `<`, `<=`, as well as equality operators `==` and `!=`.
+
+- Relational operators have the same precedence.
+- Equality operators have precedence lower than relational operators.

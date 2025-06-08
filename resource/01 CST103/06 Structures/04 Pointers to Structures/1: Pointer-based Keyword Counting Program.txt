@@ -1,0 +1,2 @@
+Unit 1: Pointer-based Keyword Counting Program
+This iteration of the keyword-counting program uses pointers instead of array indices to manage structures. The main function operates on pointers to struct key for keyword lookup and counting, making the code more compact and efficient.

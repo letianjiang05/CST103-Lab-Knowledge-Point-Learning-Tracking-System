@@ -1,0 +1,3 @@
+Unit 4: printf and Output
+Output produced by printf goes to standard output.
+putchar and printf calls can be interleaved, and output occurs in the order of these calls.

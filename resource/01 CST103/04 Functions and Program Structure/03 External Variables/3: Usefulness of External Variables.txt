@@ -1,0 +1,2 @@
+Unit 3: Usefulness of External Variables
+External variables serve as an alternative to function arguments and return values for sharing data between functions. They offer greater efficiency when dealing with numerous shared variables, yet their usage should be cautious to prevent overcomplicating program structure.

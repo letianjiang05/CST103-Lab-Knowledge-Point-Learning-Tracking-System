@@ -1,0 +1,3 @@
+Unit 2: Understanding Scope in C
+In C, the scope of a name refers to the part of the program where the name is usable. For automatic variables within a function, their scope is limited to that function. Local variables in different functions with the same name are independent. Parameters in functions act as local variables as well.
+

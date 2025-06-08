@@ -1,0 +1,2 @@
+Unit 4: Understanding Function Calls and Libraries
+Functions communicate using arguments, conveyed within parentheses after the function name. The `#include <stdio.h>` line in the program incorporates the standard input/output library, vital for functions like `printf`. The character string in `printf` serves as an argument, and `\n` represents a newline character.

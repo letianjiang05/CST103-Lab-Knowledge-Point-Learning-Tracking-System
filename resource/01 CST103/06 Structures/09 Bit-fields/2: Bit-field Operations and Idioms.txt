@@ -1,0 +1,2 @@
+Unit 2: Bit-field Operations and Idioms
+Common operations and idioms associated with bit-fields are introduced, including setting and clearing specific bits using bitwise OR (|) and bitwise AND (&) operations with masks. Examples demonstrating turning on, off, and checking specific bits using logical operators are provided, showcasing the manipulation of bit-field flags within a word.

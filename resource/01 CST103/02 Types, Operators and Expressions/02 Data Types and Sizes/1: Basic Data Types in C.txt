@@ -1,0 +1,7 @@
+Unit 1: Basic Data Types in C
+In C, there exist a few fundamental data types:
+
+- char: A single byte capable of holding one character in the local character set.
+- int: An integer, typically reflecting the natural size of integers on the host machine.
+- float: Single-precision floating point.
+- double: Double-precision floating point.

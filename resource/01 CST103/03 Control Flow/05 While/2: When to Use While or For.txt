@@ -1,0 +1,2 @@
+Unit 2: When to Use While or For
+Whether to use while or for is largely a matter of personal preference. The for loop is preferable when there is a simple initialization and increment since it keeps the loop control statements close together and visible at the top of the loop. Nonetheless, it is bad style to force unrelated computations into the initialization and increment of a for, which are better reserved for loop control operations.

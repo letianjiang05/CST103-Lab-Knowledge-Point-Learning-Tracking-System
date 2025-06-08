@@ -1,0 +1,11 @@
+Unit 2: Union Syntax and Usage
+A union declaration is similar to a structure. For example:
+
+c
+Copy code
+union u_tag {
+    int ival;
+    float fval;
+    char *sval;
+} u;
+Here, u can store the largest among the types specified. It's the programmer's responsibility to track which type is currently stored in the union, as retrieving a different type than the one stored yields implementation-dependent results.

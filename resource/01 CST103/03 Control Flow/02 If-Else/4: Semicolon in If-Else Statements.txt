@@ -1,0 +1,2 @@
+Unit 4: Semicolon in If-Else Statements
+Notice that there is a semicolon after `z = a` in `if (a > b) z = a; else z = b;`. This is because grammatically, a statement follows the if, and an expression statement like `z = a;` is always terminated by a semicolon.

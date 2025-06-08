@@ -1,0 +1,9 @@
+Unit 1: Problem Background and Solution Approach
+In addressing the challenge of efficiently counting word occurrences in input text without prior knowledge of the word list, linear search is impractical due to its time complexity as the number of input words grows. To handle this, maintaining a sorted set of encountered words becomes crucial. However, doing so in a linear array poses performance issues. Instead, employing a binary tree data structure proves advantageous.
+
+The binary tree structure comprises nodes, each storing:
+
+A pointer to the word's text
+Count of occurrences
+Pointers to left and right child nodes
+Nodes are organized to maintain the left subtree containing words lexically less than the node's word, and the right subtree containing greater words. This structural organization facilitates efficient word retrieval, insertion, and printing through recursive methods. The node structure, though self-referential, is logically sound, avoiding instances of containing itself by using pointers to itself.

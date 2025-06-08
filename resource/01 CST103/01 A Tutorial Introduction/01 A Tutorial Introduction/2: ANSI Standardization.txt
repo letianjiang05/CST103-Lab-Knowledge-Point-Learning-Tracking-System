@@ -1,0 +1,3 @@
+Unit 2: ANSI Standardization
+Recognizing the growing popularity of C and its changes over the years, a need emerged for a more precise and contemporary definition of the language. Consequently, in 1983, the American National Standards Institute (ANSI) established a committee tasked with crafting "an unambiguous and machine-independent definition of the language C" while preserving its essence. The outcome was the ANSI standard for C, formalizing constructs hinted at but not explicitly detailed in the initial edition.
+

@@ -1,0 +1,3 @@
+Unit 2: Input Mechanism - getchar and putchar
+getchar() reads one character at a time from standard input (usually the keyboard) and returns the next input character or EOF at the end of the file.
+putchar(c) outputs the character c to standard output (typically the screen) and returns the character written or EOF if an error occurs.

@@ -1,0 +1,2 @@
+Unit 4: Implementation and Considerations
+Details about bit-fields that are implementation-dependent are explored, such as the potential for fields to overlap word boundaries, the ordering of fields (left to right or right to left), and considerations for data alignment. The unit highlights that while bit-fields are useful for internal data structures, their usage in dealing with externally-defined data can impact portability due to implementation variations.

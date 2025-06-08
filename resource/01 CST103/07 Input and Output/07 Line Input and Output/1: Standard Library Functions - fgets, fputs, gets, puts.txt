@@ -1,0 +1,3 @@
+Unit 1: Standard Library Functions - fgets, fputs, gets, puts
+
+The standard library offers various input/output functions like fgets, fputs, gets, and puts for handling strings and files. These functions are akin to each other, performing read and write operations, though with some differences in behavior, particularly in managing newline characters.

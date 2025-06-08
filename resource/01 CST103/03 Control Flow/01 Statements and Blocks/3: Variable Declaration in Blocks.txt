@@ -1,0 +1,2 @@
+Unit 3: Variable Declaration in Blocks
+Variables can be declared inside any block. We will talk about this in Chapter 4. 

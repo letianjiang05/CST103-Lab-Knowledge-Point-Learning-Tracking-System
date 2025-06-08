@@ -1,0 +1,4 @@
+Unit 1: Introduction to Error Handling and stderr
+
+Error handling in programs like 'cat' becomes essential when the standard output is redirected to a file or another program. Utilizing 'stderr' as a separate output stream enables the display of error messages on the screen, ensuring their visibility despite output redirection.
+

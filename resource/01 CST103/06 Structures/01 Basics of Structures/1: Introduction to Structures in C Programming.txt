@@ -1,0 +1,4 @@
+Unit 1: Introduction to Structures in C Programming
+Structures in C are collections of various data types bundled together under a single name. They provide a means to create custom data types that can hold multiple elements. The concept is introduced through the creation of structures suitable for graphics, starting with the fundamental object: a point comprising x and y integer coordinates.
+
+A structure declaration uses the struct keyword followed by a structure tag, enclosing member declarations within braces. These members, representing variables within the structure, can have the same names as non-member variables without conflict, as context distinguishes them.

@@ -1,0 +1,2 @@
+Unit 4: Enhancements and Structure of the Book
+Efforts were made to maintain the brevity of the first edition while improving critical explanations, especially regarding pointers. Original examples were refined, and new ones introduced across several chapters. Examples were tested directly from the text in machine-readable form.

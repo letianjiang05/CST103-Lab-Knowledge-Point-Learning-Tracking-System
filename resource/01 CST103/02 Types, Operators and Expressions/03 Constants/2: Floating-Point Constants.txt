@@ -1,0 +1,6 @@
+Unit 2: Floating-Point Constants
+
+Floating-point constants contain a decimal point (like 123.4) or an exponent (like 1e-2), or both. By default, their type is double unless suffixed.
+
+- Suffixes 'f' or 'F' indicate a float constant.
+- Suffixes 'l' or 'L' indicate a long double constant.

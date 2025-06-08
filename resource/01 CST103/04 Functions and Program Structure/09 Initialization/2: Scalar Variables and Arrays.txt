@@ -1,0 +1,12 @@
+Unit 2: Scalar Variables and Arrays
+Scalar variables may be initialized when they are defined, by following the name with an equals sign and an expression. For example:
+```c
+int x = 1;
+char squota = '\'';
+long day = 1000L * 60L * 60L * 24L; /* milliseconds/day */
+```
+An array may be initialized by following its declaration with a list of initializers enclosed in braces and separated by commas. For example, to initialize an array days with the number of days in each month:
+```c
+int days[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 }
+```
+When the size of the array is omitted, the compiler will compute the length by counting the initializers, of which there are 12 in this case.

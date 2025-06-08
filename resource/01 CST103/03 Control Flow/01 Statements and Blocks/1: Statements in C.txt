@@ -1,0 +1,8 @@
+Unit 1: Statements in C
+In C, an expression such as `x = 0`, `i++`, or `printf(...)` becomes a statement when it is followed by a semicolon. For example:
+```c
+x = 0;
+i++;
+printf(...);
+```
+In C, the semicolon is a statement terminator, rather than a separator as it is in languages like Pascal.

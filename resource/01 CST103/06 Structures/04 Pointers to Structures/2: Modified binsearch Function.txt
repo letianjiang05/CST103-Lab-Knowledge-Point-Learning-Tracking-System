@@ -1,0 +1,2 @@
+Unit 2: Modified binsearch Function
+The binsearch function now works with pointers instead of array indices. The adjustments involve handling pointers to elements of the keytab array rather than array indices. It ensures that the pointer arithmetic stays within the limits of the array to avoid illegal memory access.

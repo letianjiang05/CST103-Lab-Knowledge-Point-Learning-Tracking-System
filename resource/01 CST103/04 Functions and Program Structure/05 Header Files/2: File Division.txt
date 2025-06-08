@@ -1,0 +1,2 @@
+Unit 2: File Division
+The main function would go in one file, which we will call `main.c`. `push`, `pop`, and their variables go into a second file, `stack.c`. `getop` goes into a third, `getop.c`. Finally, `getch` and `ungetch` go into a fourth file, `getch.c`. We separate them from the others because they would come from a separately-compiled library in a realistic program.

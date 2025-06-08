@@ -1,0 +1,2 @@
+Unit 2: Program Explanation
+The program introduces comments, declarations, variables (integers), and arithmetic expressions. Comments in C are enclosed between `/*` and `*/`, and variables must be declared before usage, with `int` denoting integers.

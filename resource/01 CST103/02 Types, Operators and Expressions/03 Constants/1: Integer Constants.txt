@@ -1,0 +1,6 @@
+Unit 1: Integer Constants
+
+An integer constant like 1234 is considered an int. If the integer constant is too large to fit into an int, it will be considered a long. 
+
+- A long constant is denoted with a terminal 'l' or 'L', like 123456789L.
+- Unsigned constants are written with a terminal 'u' or 'U', while 'ul' or 'UL' indicates unsigned long.

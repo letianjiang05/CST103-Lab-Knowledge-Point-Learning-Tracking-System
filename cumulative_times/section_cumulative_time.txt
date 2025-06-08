@@ -1,0 +1,18 @@
+01 A Tutorial Introduction
+83.000000
+02 Data Types and Sizes
+38.000000
+02 Getting Started
+3.000000
+11 Character Arrays
+33.000000
+02 If-Else
+13.000000
+04 Pointers to Structures
+36.000000
+0.000000
+36.000000
+0.000000
+36.000000
+03 Constants
+98.000000

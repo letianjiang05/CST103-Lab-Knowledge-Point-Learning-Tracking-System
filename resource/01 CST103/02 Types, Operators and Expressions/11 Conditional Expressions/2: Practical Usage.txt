@@ -1,0 +1,16 @@
+Unit 2: Practical Usage
+
+# Bit Masking with Bitwise AND (`&`)
+- Often used to set specific bits to zero. Example: `n = n & 0177;` clears all but the low-order 7 bits of `n`.
+
+# Bit Setting with Bitwise OR (`|`)
+- Sets particular bits to one. Example: `x = x | SET_ON;` turns on bits in `x` where `SET_ON` is also set to one.
+
+# Bitwise Exclusive OR (`^`)
+- Sets a bit to one where operands have different bits; sets to zero where they are the same.
+
+# Left and Right Shifts (`<<` and `>>`)
+- Left shift `<<` moves bits leftward; right shift `>>` moves bits rightward, filling vacated bits based on the operation type and data type (signed or unsigned).
+
+# One's Complement (`~`)
+- Inverts each bit in an integer, converting 1s to 0s and vice versa.

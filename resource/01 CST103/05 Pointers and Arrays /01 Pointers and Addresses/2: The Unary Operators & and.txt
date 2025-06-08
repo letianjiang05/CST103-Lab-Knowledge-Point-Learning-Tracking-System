@@ -1,0 +1,3 @@
+Unit 2: The Unary Operators & and
+The unary operator & gives the address of an object, so the statement `p = &c;` assigns the address of c to the variable p, and p is said to "point to" c. The & operator only applies to objects in memory: variables and array elements. It cannot be applied to expressions, constants, or register variables. The unary operator * is the indirection or dereferencing operator; when applied to a pointer, it accesses the object the pointer points to.
+

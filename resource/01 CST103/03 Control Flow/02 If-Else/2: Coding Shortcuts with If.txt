@@ -1,0 +1,2 @@
+Unit 2: Coding Shortcuts with If
+Since an if tests the numeric value of an expression, certain coding shortcuts are possible. The most obvious is writing `if (expression)` instead of `if (expression != 0)`. Sometimes this is natural and clear; at other times it can be cryptic.

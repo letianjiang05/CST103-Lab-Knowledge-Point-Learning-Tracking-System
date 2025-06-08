@@ -1,0 +1,7 @@
+Unit 3: Illustrative Function - `getbits`
+```c
+unsigned getbits(unsigned x, int p, int n) {
+    return (x >> (p+1-n)) & ~(~0 << n);
+}
+```
+- `getbits` extracts a right-adjusted n-bit field from position p in x.

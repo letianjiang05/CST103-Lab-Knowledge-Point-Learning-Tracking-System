@@ -1,0 +1,3 @@
+Unit 3: Implementation of Functions
+
+The provided code demonstrates the implementation of the `getline` and `copy` functions along with the `main` program. The `getline` function reads characters into an array until it reaches the specified limit or encounters a newline or EOF. The `copy` function duplicates one character array into another.

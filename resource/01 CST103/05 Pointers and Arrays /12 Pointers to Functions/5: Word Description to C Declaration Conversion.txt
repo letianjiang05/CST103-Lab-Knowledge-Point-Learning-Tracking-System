@@ -1,0 +1,2 @@
+Unit 5: Word Description to C Declaration Conversion
+The undcl program demonstrates the reverse process of converting word descriptions into C declarations. It utilizes similar mechanisms as the dcl program but aims to avoid redundant parentheses in declarations. The unit concludes by proposing exercises to enhance the programs, such as error recovery improvements and handling additional declaration complexities like function argument types and qualifiers.

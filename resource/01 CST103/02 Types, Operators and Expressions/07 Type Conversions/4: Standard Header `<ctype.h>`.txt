@@ -1,0 +1,5 @@
+Unit 4: Standard Header `<ctype.h>`
+
+The `<ctype.h>` header provides functions independent of character sets, such as `tolower` as a replacement for `lower`.
+
+- `isdigit(c)` replaces checks for digits (`c >= '0' && c <= '9'`), enhancing portability.

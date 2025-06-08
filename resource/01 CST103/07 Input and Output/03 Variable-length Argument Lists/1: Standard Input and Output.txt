@@ -1,0 +1,13 @@
+
+Unit 1: Standard Input and Output
+
+As described in Chapter 1, the library implements a simple model of text input and output. A text stream comprises a sequence of lines, each terminated by a newline character. Even if the system operates differently, the library ensures that it seems to operate in this fashion. For instance, it might convert carriage return and linefeed to newline on input and back again on output.
+
+The most straightforward input mechanism involves reading one character at a time from the standard input, usually the keyboard, using getchar. It returns the subsequent input character each time it's called, and EOF when it encounters the end of the file. The symbolic constant EOF is defined in <stdio.h>, typically set to -1. It's essential to test in terms of EOF to be independent of the specific value.
+
+In many environments, a file can substitute for the keyboard using the < convention for input redirection. For instance, if a program prog uses getchar, the command line prog <infile makes prog read characters from infile. The input switch is performed without altering prog itself, and the string <infile doesn't appear in argv. Similarly, input from another program via a pipe mechanism (prog | anotherprog) is handled invisibly.
+
+
+
+
+

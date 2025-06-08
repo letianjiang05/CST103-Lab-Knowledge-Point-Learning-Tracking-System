@@ -1,0 +1,9 @@
+Unit 1: The If-Else Statement
+The if-else statement is used to express decisions. Formally the syntax is:
+```c
+if (expression)
+    statement1
+else
+    statement2
+```
+The else part is optional. The expression is evaluated; if it is true (that is, if the expression has a non-zero value), statement1 is executed. If it is false (expression is zero) and if there is an else part, statement2 is executed instead.

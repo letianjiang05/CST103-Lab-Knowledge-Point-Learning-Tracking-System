@@ -1,0 +1,17 @@
+Unit 1: Utilizing Symbolic Constants
+Symbolic constants offer a better alternative to "magic numbers" in programs, enhancing readability and flexibility. They are declared using `#define` to assign meaningful names to numerical values.
+
+```c
+#include <stdio.h>
+
+#define LOWER 0    /* Lower limit of table */
+#define UPPER 300  /* Upper limit */
+#define STEP 20    /* Step size */
+
+/* Print Fahrenheit-Celsius table */
+main() {
+    int fahr;
+    for (fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)
+        printf("%3d %6.1f\n", fahr, (5.0 / 9.0) * (fahr - 32));
+}
+```

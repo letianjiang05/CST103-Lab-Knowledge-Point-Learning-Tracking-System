@@ -1,0 +1,2 @@
+Unit 4: Choosing Between `for` and `while` Loops
+The choice between `for` and `while` loops is based on clarity and logical structure. `for` loops are suitable for concise, logically related initialization and increment operations, consolidating loop control statements in one location.

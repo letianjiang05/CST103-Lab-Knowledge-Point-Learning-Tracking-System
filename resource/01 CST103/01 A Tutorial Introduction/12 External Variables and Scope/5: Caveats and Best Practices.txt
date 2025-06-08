@@ -1,0 +1,4 @@
+Unit 5: Caveats and Best Practices
+
+- Warns against over-reliance on external variables due to potential complexities in program data connections and unexpected variable changes.
+- Critiques the revised longest-line program for compromising the generality of useful functions by embedding variable names within them.

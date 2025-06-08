@@ -1,0 +1,2 @@
+Unit 2: Two-dimensional Arrays vs. Arrays of Pointers
+The discussion underscores the advantage of arrays of pointers in accommodating varying row lengths, unlike two-dimensional arrays that maintain a fixed row size. It explains that each element of an array of pointers need not point to arrays of the same size; some pointers can point to arrays of different lengths or even to no array at all. This flexibility is especially useful when managing character strings of different lengths, commonly employed in scenarios like the month_name function.

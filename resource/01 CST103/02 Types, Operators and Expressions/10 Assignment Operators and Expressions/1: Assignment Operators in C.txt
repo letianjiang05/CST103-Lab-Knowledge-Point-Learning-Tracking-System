@@ -1,0 +1,2 @@
+Unit 1: Assignment Operators in C
+This unit delves into assignment operators in C, highlighting their role in concise expression writing and their equivalence to the corresponding binary operators. It explains how expressions like `i += 2` are more intuitive and efficient than their longer counterparts, such as `i = i + 2`. The section emphasizes the advantage of assignment operators in enhancing code readability and simplifying complex expressions.

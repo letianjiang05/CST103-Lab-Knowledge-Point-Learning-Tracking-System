@@ -1,0 +1,26 @@
+Unit 3: Practical Usage Examples
+
+# `squeeze` Function
+```c
+void squeeze(char s[], int c) {
+    int i, j;
+    for (i = j = 0; s[i] != '\0'; i++)
+        if (s[i] != c)
+            s[j++] = s[i];
+    s[j] = '\0';
+}
+```
+- Illustrates the postfix increment's utility by copying and incrementing `j` after a character is copied into position.
+
+# `strcat` Function
+```c
+void strcat(char s[], char t[]) {
+    int i, j;
+    i = j = 0;
+    while (s[i] != '\0') /* find end of s */
+        i++;
+    while ((s[i++] = t[j++]) != '\0') /* copy t */
+        ;
+}
+```
+- Demonstrates the postfix increment to ensure positioning for the next loop iteration.

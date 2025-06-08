@@ -1,0 +1,2 @@
+Unit 3: Labels
+A label has the same form as a variable name, and is followed by a colon. It can be attached to any statement in the same function as the goto. The scope of a label is the entire function.

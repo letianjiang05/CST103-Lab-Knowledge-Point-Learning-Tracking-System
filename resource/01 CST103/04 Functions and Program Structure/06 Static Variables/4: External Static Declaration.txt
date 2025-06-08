@@ -1,0 +1,2 @@
+Unit 4: External Static Declaration
+The external static declaration is most often used for variables, but it can be applied to functions as well. Normally, function names are global, visible to any part of the entire program. If a function is declared static, however, its name is invisible outside of the file in which it is declared.

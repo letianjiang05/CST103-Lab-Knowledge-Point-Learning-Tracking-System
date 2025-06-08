@@ -1,0 +1,27 @@
+Unit 2: Macro Substitution in C Programming
+
+1. **Definition and Usage:**
+   - `#define name replacement text` defines a macro, replacing subsequent occurrences of `name` with `replacement text`.
+   - The scope of a macro defined using `#define` lasts until the end of the source file.
+   - Macros can use previous definitions and are substituted only for tokens, not within quoted strings.
+
+2. **Simple Macros:**
+   - Replacement text can be a simple line or continued onto several lines using `\` for continuation.
+   - Macros can be used for various purposes, like creating new words or defining constants.
+
+3. **Parameterized Macros:**
+   - Macros can have arguments to allow different substitutions based on calls.
+   - For instance, `#define max(A, B) ((A) > (B) ? (A) : (B))` defines a `max` macro for comparisons.
+
+4. **Pitfalls and Care:**
+   - Care must be taken with macros evaluating expressions twice and preserving the order of evaluation.
+   - Macros might cause issues with side effects in expressions and require careful use of parentheses.
+
+5. **Special Uses:**
+   - Macros can be undefined using `#undef` to redefine routines as functions rather than macros.
+   - `#` and `##` operators within macros allow parameter manipulation, such as converting arguments to string literals and concatenating arguments.
+
+6. **Practical Examples:**
+   - Commonly used library functions like `getchar`, `putchar`, and functions in `<ctype.h>` are usually implemented as macros for performance reasons.
+
+Macros in C are powerful tools for code abstraction and generation but require caution to handle correctly, especially when dealing with expressions involving side effects or complex evaluations.

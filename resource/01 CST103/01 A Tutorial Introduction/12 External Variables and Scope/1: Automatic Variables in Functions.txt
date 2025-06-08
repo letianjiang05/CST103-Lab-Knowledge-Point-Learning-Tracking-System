@@ -1,0 +1,5 @@
+Unit 1: Automatic Variables in Functions
+
+- Describes variables declared within functions as local or private to those functions.
+- Highlights the temporary existence of automatic variables, which appear and vanish as functions are called and exited.
+- Mentions the necessity to initialize automatic variables upon each function invocation to avoid holding garbage values.

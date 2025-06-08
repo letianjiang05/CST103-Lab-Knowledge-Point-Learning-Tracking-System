@@ -1,0 +1,3 @@
+Unit 3: Fahrenheit-Celsius Computation
+The temperature conversion utilizes a loop (`while`) to calculate Celsius values corresponding to Fahrenheit temperatures. Integer division truncates fractional parts, impacting accuracy.
+

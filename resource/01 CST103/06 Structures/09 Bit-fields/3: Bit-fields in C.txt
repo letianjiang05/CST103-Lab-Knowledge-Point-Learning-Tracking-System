@@ -1,0 +1,3 @@
+Unit 3: Bit-fields in C
+The C language offers a direct alternative to bit-wise logical operators by providing bit-fields. A bit-field represents a set of adjacent bits within an implementation-defined storage unit. This unit covers the declaration and usage of bit-fields using the struct keyword, defining individual fields with specified widths (in bits). Accessing and manipulating these fields within the structure, treating them as small integers, is showcased as an alternative to bit-wise operations.
+

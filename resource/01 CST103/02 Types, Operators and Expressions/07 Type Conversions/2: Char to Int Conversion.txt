@@ -1,0 +1,6 @@
+Unit 2: Char to Int Conversion
+
+In C, chars are small integers, permitting their use in arithmetic expressions.
+
+- This allows transformations, like in the naive implementation of the `atoi` function that converts a string of digits into its numeric equivalent.
+- Conversion from a character to an integer is facilitated by subtracting the ASCII values.

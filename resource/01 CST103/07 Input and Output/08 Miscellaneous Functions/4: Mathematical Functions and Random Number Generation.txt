@@ -1,0 +1,2 @@
+Unit 4: Mathematical Functions and Random Number Generation
+This unit covers mathematical functions from <math.h>, including trigonometric functions like sin and cos, exponential functions like exp, logarithmic functions like log and log10, power functions pow, square root function sqrt, and absolute value function fabs. Additionally, the random number generation function rand and its seed-setting function srand will be explored for pseudo-random number generation.

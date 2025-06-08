@@ -1,0 +1,2 @@
+Unit 1: String Operations and Character Manipulation
+In this unit, we'll explore string-related functions from <string.h> and character class testing methods from <ctype.h>. The string functions include operations like concatenation, comparison, copying, and length determination using functions such as strlen, strcpy, strcat, strcmp, strncmp, strncpy, strchr, and strrchr. Additionally, the character class testing functions like isalpha, isupper, islower, isdigit, isalnum, isspace, toupper, and tolower will be examined.

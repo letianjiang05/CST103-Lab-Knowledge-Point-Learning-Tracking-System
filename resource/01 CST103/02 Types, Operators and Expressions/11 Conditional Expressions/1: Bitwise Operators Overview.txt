@@ -1,0 +1,9 @@
+Unit 1: Bitwise Operators Overview
+
+In C, there are six bitwise operators specifically for integral operands:
+- `&`: Bitwise AND
+- `|`: Bitwise inclusive OR
+- `^`: Bitwise exclusive OR
+- `<<`: Left shift
+- `>>`: Right shift
+- `~`: One's complement (unary)

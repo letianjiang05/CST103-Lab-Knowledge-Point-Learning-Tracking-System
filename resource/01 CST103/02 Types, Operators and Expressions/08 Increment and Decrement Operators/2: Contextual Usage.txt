@@ -1,0 +1,5 @@
+Unit 2: Contextual Usage
+
+The prefix and postfix versions of `++` and `--` are the same when only the incrementing effect is desired.
+
+- In specific contexts where the value is used, choosing between prefix and postfix has a distinct impact on the result.

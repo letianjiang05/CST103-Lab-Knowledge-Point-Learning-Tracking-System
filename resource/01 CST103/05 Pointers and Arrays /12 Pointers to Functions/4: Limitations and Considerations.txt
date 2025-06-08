@@ -1,0 +1,2 @@
+Unit 4: Limitations and Considerations
+The programs are illustrative rather than exhaustive, having significant restrictions. They can only handle simple data types like char or int, lack robust error recovery for input mistakes, and don't handle qualifiers like const or argument types in functions. The section encourages enhancements and improvements through exercises.

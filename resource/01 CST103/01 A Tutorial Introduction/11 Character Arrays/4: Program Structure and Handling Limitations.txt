@@ -1,0 +1,3 @@
+Unit 4: Program Structure and Handling Limitations
+
+The program structure and interaction between `main`, `getline`, and `copy` are highlighted. It touches upon the handling of excessively long lines and how `getline` functions safely within the specified limit. However, it leaves considerations about dealing with such cases in the `main` routine unaddressed for brevity.

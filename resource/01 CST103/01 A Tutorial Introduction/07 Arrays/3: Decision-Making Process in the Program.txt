@@ -1,0 +1,3 @@
+Unit 3: Decision-Making Process in the Program
+
+The program employs a sequence of conditions using `if-else` statements to categorize characters into digits, white space, or other characters. These conditions are evaluated in order, and the corresponding statements execute based on the character type encountered.

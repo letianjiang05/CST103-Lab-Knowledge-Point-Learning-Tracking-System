@@ -1,0 +1,2 @@
+Unit 5: Initialization of External Variables
+Initialization of external variables is performed alongside their definition. If variables are defined in one file and used in another, `extern` declarations must precede the function definitions to link them properly.

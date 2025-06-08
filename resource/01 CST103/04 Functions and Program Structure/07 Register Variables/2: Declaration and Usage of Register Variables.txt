@@ -1,0 +1,2 @@
+Unit 2: Declaration and Usage of Register Variables
+The register declaration can only be applied to automatic variables and to the formal parameters of a function. In practice, there are restrictions on register variables, reflecting the realities of underlying hardware. Only a few variables in each function may be kept in registers, and only certain types are allowed. Excess register declarations are harmless, however, since the word register is ignored for excess or disallowed declarations.

@@ -1,0 +1,2 @@
+Unit 2: Properties of External Variables
+By default, external variables and functions exhibit external linkage, meaning references to them by the same name from different functions (even when compiled separately) point to the same entity. This property is akin to Fortran's COMMON blocks or outermost block variables in Pascal.

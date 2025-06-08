@@ -1,0 +1,11 @@
+Unit 2: Logical Operators
+
+The logical operators `&&` and `||` evaluate expressions from left to right and stop as soon as the truth or falsehood of the result is known.
+
+- Commonly used for conditional evaluations and loops, where the evaluation order is crucial for efficiency.
+- Example usage in a loop from a getline function:
+  ```c
+  for (i = 0; i < lim - 1 && (c = getchar()) != '\n' && c != EOF; ++i)
+      s[i] = c;
+  ```
+  This ensures appropriate checks before reading new characters.

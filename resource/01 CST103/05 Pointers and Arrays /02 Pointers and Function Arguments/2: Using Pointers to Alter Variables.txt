@@ -1,0 +1,13 @@
+Unit 2: Using Pointers to Alter Variables
+The way to obtain the desired effect is for the calling program to pass pointers to the values to be changed: `swap(&a, &b);`. Since the operator & produces the address of a variable, &a is a pointer to a. In swap itself, the parameters are declared as pointers, and the operands are accessed indirectly through them.
+```c
+void swap(int *px, int *py) /* interchange *px and *py */
+{
+    int temp;
+    temp = *px;
+    *px = *py;
+    *py = temp;
+}
+```
+Pointer arguments enable a function to access and change objects in the function that called it.
+

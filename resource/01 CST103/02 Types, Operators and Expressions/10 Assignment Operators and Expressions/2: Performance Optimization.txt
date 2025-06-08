@@ -1,0 +1,2 @@
+Unit 2: Performance Optimization
+Exercise 2-9 challenges readers to understand the behavior of `x &= (x-1)` in a two's complement number system, explaining how it deletes the rightmost 1-bit in `x`. This observation is used to prompt readers to devise a faster version of the `bitcount` function by leveraging this property of the bitwise operation.

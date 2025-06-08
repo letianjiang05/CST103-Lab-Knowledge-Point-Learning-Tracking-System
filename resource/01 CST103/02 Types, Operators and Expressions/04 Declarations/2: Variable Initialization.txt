@@ -1,0 +1,13 @@
+Unit 2: Variable Initialization
+
+Variables can be initialized during declaration by using an equals sign followed by an expression.
+
+- Initialization example:
+  ```c
+  char esc = '\\';
+  int i = 0;
+  int limit = MAXLINE + 1;
+  float eps = 1.0e-5;
+  ```
+- Initialization for non-automatic variables happens once, conceptually before the program starts executing.
+- For explicitly initialized automatic variables, initialization occurs each time the function or block is entered.

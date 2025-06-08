@@ -1,0 +1,4 @@
+Unit 2: Implementation and Function Pointers in Sorting Program
+The sorting program includes function declarations, such as strcmp for lexicographic comparison and numcmp for numeric value comparison. These functions are declared before the main function, and a pointer to the appropriate one is passed to qsort for sorting purposes. The program prioritizes main functionalities over extensive error processing for arguments.
+
+The qsort function is designed to process any data type, not solely character strings. It expects an array of pointers, two integers specifying indices, and a function with two pointer arguments. The use of void * as a generic pointer type allows flexibility in casting pointers without losing information.

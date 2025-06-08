@@ -1,0 +1,2 @@
+Unit 3: Static Storage
+Static storage is specified by prefixing the normal declaration with the word static. If the two routines and the two variables are compiled in one file, then no other routine will be able to access `buf` and `bufp`, and those names will not conflict with the same names in other files of the same program. In the same way, the variables that `push` and `pop` use for stack manipulation can be hidden, by declaring `sp` and `val` to be static.

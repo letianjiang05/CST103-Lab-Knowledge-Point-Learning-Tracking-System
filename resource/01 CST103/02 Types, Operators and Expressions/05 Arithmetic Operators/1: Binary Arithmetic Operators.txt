@@ -1,0 +1,6 @@
+Unit 1: Binary Arithmetic Operators
+
+C includes several binary arithmetic operators: +, -, *, /, and %. 
+
+- Integer division truncates any fractional part.
+- The `%` operator produces the remainder when x is divided by y, resulting in zero when y divides x exactly.

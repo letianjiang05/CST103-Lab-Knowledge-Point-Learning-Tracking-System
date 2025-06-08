@@ -1,0 +1,2 @@
+Unit 3: Understanding Assignment Expressions
+This unit clarifies that assignment expressions have values and can be used within larger expressions. It notes the common usage of assignment statements within loops like `while ((c = getchar()) != EOF)` and explains that the type of an assignment expression is the type of its left operand, while the value is the result after the assignment.

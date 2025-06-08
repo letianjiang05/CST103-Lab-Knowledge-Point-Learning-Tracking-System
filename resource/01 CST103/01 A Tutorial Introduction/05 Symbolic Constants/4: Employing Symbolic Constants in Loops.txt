@@ -1,0 +1,2 @@
+Unit 4: Employing Symbolic Constants in Loops
+The `for` loop in the program now utilizes these symbolic constants (`LOWER`, `UPPER`, and `STEP`) instead of explicit numerical values. This change ensures clarity and ease of adjustment for future modifications.

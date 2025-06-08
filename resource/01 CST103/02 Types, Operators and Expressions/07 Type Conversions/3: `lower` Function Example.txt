@@ -1,0 +1,5 @@
+Unit 3: `lower` Function Example
+
+The `lower` function maps a single character to lowercase for the ASCII character set, returning it unchanged if it's not an uppercase letter.
+
+- This demonstrates char to int conversion as corresponding upper and lower case letters have a fixed distance in ASCII.

@@ -1,0 +1,2 @@
+Unit 3: Understanding the `for` Loop
+The `for` loop comprises three segments within parentheses: initialization, condition, and increment. It operates similarly to the earlier `while` loop, with the initialization performed once before entering the loop, followed by a condition evaluation and subsequent execution of the loop body. The loop continues until the condition becomes false.

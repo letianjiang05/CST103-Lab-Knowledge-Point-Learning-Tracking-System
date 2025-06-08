@@ -1,0 +1,2 @@
+Unit 2: Variable Scope and Hiding
+Variables declared in this way hide any identically named variables in outer blocks, and remain in existence until the matching right brace. An automatic variable declared and initialized in a block is initialized each time the block is entered. Automatic variables, including formal parameters, also hide external variables and functions of the same name.

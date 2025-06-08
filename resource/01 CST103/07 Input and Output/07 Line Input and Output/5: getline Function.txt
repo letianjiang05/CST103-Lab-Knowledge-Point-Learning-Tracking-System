@@ -1,0 +1,5 @@
+Unit 5: getline Function
+
+By utilizing fgets, the getline function reads a line from stdin and returns its length. If fgets returns NULL, it indicates the end of the file.
+
+The passage gives a comprehensive overview of standard library functions for input and output operations, focusing on their behavior, implementation, and application in file handling and string operations. It also introduces exercises prompting practical usage and program development using these functions.

@@ -1,0 +1,10 @@
+Unit 2: Qualifiers and Declarations
+Additional qualifiers can be applied to these basic types:
+
+- short and long apply to integers. For instance:
+  ```c
+  short int sh;
+  long int counter;
+  ```
+- The word 'int' can be omitted in such declarations, and typically it is.
+- The intent is that 'short' and 'long' should provide different lengths of integers where practical.

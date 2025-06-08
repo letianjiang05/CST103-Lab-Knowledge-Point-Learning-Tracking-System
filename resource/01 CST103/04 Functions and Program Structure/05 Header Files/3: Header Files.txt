@@ -1,0 +1,2 @@
+\Unit 3: Header Files
+There is one more thing to worry about - the definitions and declarations shared among files. As much as possible, we want to centralize this, so that there is only one copy to get and keep right as the program evolves. Accordingly, we will place this common material in a header file, `calc.h`, which will be included as necessary. The resulting program then looks like this:

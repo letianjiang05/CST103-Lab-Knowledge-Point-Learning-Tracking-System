@@ -1,0 +1,2 @@
+Unit 3: Scope of External Variables and Functions
+External variables or functions have a scope that extends from their declaration to the end of the file being compiled. Variables declared externally in one file can be used within functions defined in the same file without additional declarations. However, these names are not visible in other parts of the program.

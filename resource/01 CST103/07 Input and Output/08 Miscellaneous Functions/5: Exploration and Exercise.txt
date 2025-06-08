@@ -1,0 +1,2 @@
+Unit 5: Exploration and Exercise
+This unit explores potential optimizations in implementing functions like isupper to conserve space or enhance execution speed. An exercise, Exercise 7-9, encourages exploration of these optimization possibilities for functions such as isupper.

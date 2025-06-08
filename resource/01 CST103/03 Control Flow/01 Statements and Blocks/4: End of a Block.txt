@@ -1,0 +1,2 @@
+Unit 4: End of a Block
+There is no semicolon after the right brace that ends a block.

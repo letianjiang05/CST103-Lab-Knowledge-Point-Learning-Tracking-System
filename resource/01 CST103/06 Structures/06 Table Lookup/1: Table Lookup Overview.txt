@@ -1,0 +1,5 @@
+Unit 1: Table Lookup Overview
+This section delves into table lookup functionalities, crucial in symbol table management of macro processors or compilers. It addresses scenarios like #define statements in C programs, where names and corresponding replacement texts are stored and accessed.
+
+Two key routines, install and lookup, manage name and replacement text data. install(s, t) records the name s and its replacement text t in a table. On the other hand, lookup(s) searches for s in the table and returns a pointer to its location or NULL if absent.
+
