@@ -3,7 +3,6 @@
 ```
 - src/
     - main.c
-    - main.exe
 - resource/
     - 01 CST103/
         - chapter/
