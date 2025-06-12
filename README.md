@@ -1,4 +1,8 @@
 # CST103-Lab-Knowledge-Point-Learning-Tracking-System
+Course Code: CST103\
+Course Name: Programming in language C\
+Academic Session: 2023/09\
+Assessment Title: Lab Report and Presentation\
 Date: 02/01/2024
 ***
 ## Task(s)
