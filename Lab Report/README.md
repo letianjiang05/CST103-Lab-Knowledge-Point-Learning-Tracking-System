@@ -38,6 +38,7 @@ Learning materials were hierarchically organized:
             - Units
 ```
 This hierarchy facilitated systematic navigation and access to the learning content.
+
 3. User-driven interactions: The user interface was designed to be interactive, allowing users (students or administrators) to navigate through the learning materials using a user-friendly command line interface. Users were prompted for input to make selections or perform actions within the system.
 4. Time Tracking Mechanism: A time tracking mechanism was implemented to automatically record start and end times for learning sessions. This mechanism calculated the elapsed time to provide accurate learning time for each session.
 5. Data Logging and Cumulative Analysis: The system logged detailed information about learning sessions, capturing essential data such as student IDs, learning methods, timestamps, and specific learning materials accessed. It then processed this data to generate cumulative reports, allowing for in-depth analysis of learning patterns and time spent on various educational components.
