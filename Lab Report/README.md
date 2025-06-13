@@ -320,11 +320,13 @@ Independent Learning
 36.000000
 ```
 ## 6. Conclusion
-The development and design of the Knowledge Point Learning Tracking System (KPLTS) focused on building a robust, user-friendly, and adaptable platform for tracking learning sessions and analyzing cumulative learning data. The system’s modular architecture enhances scalability, readability, and maintainability by separating core functionalities—such as file operations and session tracking—into distinct modules. This structure simplifies updates and debugging while preserving system integrity.
+The development and design of the Knowledge Point Learning Tracking System (KPLTS) focused on building a robust, user-friendly, and adaptable platform for tracking learning sessions and analyzing cumulative learning data. 
 
-File-based storage supports extensibility, with a hierarchical organization of learning materials in directories and files that enables straightforward navigation and the addition of new content. This approach ensures the system remains sustainable and flexible for future course expansions.
+The modular architecture of the system is a key aspect that has greatly enhanced its scalability, readability, and maintainability. The division of functionality into separate modules, from handling file operations to tracking learning sessions, has contributed  significantly to the manageability of the code, allowing for easier updates and debugging without compromising the integrity of the system.
 
-Time tracking and detailed data logging provide valuable insights into learning activities and cumulative study time. While the current implementation meets initial goals, there are opportunities to further improve the system’s comprehensiveness and user experience in future iterations.
+In addition, the use of file-based storage has proven to be instrumental in ensuring the extensibility of the system. The hierarchical organization of learning materials within directories and files has facilitated easy navigation and addition of new elements, ensuring sustainability and flexibility to accommodate future course expansions.
+
+The inclusion of a time tracking mechanism and detailed data logging has provided valuable insights into learning activities and cumulative study time. However, there are still areas where the system can be improved and expanded to provide a more comprehensive and intuitive learning experience.
 
 ## 7. Future Work
 1. Improve reporting: Implement graphing or data visualization for better insight into cumulative learning times.
