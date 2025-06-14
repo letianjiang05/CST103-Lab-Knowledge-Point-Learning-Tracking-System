@@ -4,7 +4,7 @@ Course Name: Programming in language C\
 Academic Session: 2023/09\
 Assessment Title: Lab Report and Presentation\
 Date: 02/01/2024
-## [Description of Coursework](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/blob/main/Lab%20Report%20and%20Presentation.pdf)
+## [Description of Coursework](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/blob/main/DESCRIPTION%20OF%20COURSEWORK.pdf)
 
 ## [Lab Report](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/tree/main/Lab%20Report)
 ## Task(s)
