@@ -4,8 +4,9 @@ Course Name: Programming in language C\
 Academic Session: 2023/09\
 Assessment Title: Lab Report and Presentation\
 Date: 02/01/2024
-## [Description of Coursework](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/tree/main/Lab%20Report)
-## [Lab Report](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/blob/main/Lab%20Report%20and%20Presentation.pdf)
+## [Description of Coursework](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/blob/main/Lab%20Report%20and%20Presentation.pdf)
+
+## [Lab Report](https://github.com/letianjiang2/CST103-Lab-Knowledge-Point-Learning-Tracking-System/tree/main/Lab%20Report)
 ## Task(s)
 This task is to design and develop a software tool, called as "knowledge point learning tracking system "(KPLTS for short), which can help student learn C programming (and other courses in the future) more efficiently and individually.
 1. According to the course content outline of CST103, as an example of any specific course, the course content outline is divided into chapters, each of which corresponds to a set of CLOs, learning times under different learning methods and total student learning time spent for this chapter. Each chapter is then divided into several sections, and each section is divided into several knowledge units, or knowledge points in pedagogy jargon. Each section or each knowledge unit should have corresponding set of CLOs, learning times under different learning methods and total student learning time spent for this section or knowledge unit (this information is not illustrated in the official course description file). Course, chapter, section and knowledge unit, these four levels of object have certain coherent relationships. Student should design proper data forms to represent these objects in C programming language (for simplicity, student can ignore the CLO column if he/she feels puzzled). (CLO1)
